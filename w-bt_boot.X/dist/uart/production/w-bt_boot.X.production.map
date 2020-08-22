@@ -1,0 +1,2521 @@
+Archive member included because of file (symbol)
+
+ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo)
+                              build/uart/production/main.o (EZBL_Install2Flash)
+ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo)
+                              build/uart/production/main.o (EZBL_FIFOSetBaud)
+ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOFlush.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo) (EZBL_FIFOFlush)
+ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo) (EZBL_NVMKey)
+ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo) (EZBL_EraseAppSpace)
+ezbl_integration/ezbl_lib32mm.a(EZBL_IsPageErased.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo) (EZBL_IsPageErased)
+ezbl_integration/ezbl_lib32mm.a(EZBL_ExceptionMux.pic32mmo)
+                              (EZBL_VectorDispatch0000)
+ezbl_integration/ezbl_lib32mm.a(EZBL_IntCtrl.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo) (EZBL_FIFOIntEnable)
+ezbl_integration/ezbl_lib32mm.a(EZBL_FLOW_THRESHOLD_default.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo) (EZBL_FLOW_THRESHOLD)
+ezbl_integration/ezbl_lib32mm.a(EZBL_bootIDHash.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo) (EZBL_bootIDHash)
+ezbl_integration/ezbl_lib32mm.a(EZBL_COM_RX.pic32mmo)
+                              build/uart/production/main.o (EZBL_COM_RX)
+ezbl_integration/ezbl_lib32mm.a(EZBL_COM_TX.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo) (EZBL_COM_TX)
+ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo) (NOW_IntEnable)
+ezbl_integration/ezbl_lib32mm.a(NOW_Fcy.pic32mmo)
+                              build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o (NOW_Fcy)
+ezbl_integration/ezbl_lib32mm.a(NOW_ms.pic32mmo)
+                              build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o (NOW_ms)
+ezbl_integration/ezbl_lib32mm.a(NOW_sec.pic32mmo)
+                              build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o (NOW_sec)
+ezbl_integration/ezbl_lib32mm.a(NOW_us.pic32mmo)
+                              build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o (NOW_us)
+ezbl_integration/ezbl_lib32mm.a(EZBL_CalcUxBRGH.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo) (EZBL_CalcUxBRGH)
+ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+                              build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o (EZBL_STDOUT)
+ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+                              build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o (UART1_ResetBRG)
+ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+                              build/uart/production/main.o (LEDOff)
+ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+                              build/uart/production/main.o (EZBL_ForwardAllIRQ)
+ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOReset.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo) (EZBL_FIFOReset)
+ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo) (EZBL_FIFORead)
+ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOWrite.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo) (EZBL_FIFOWrite)
+ezbl_integration/ezbl_lib32mm.a(EZBL_CRC32.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo) (EZBL_CRC32)
+ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCompare.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo) (EZBL_RAMCompare)
+ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo) (EZBL_RAMCopy)
+ezbl_integration/ezbl_lib32mm.a(EZBL_Map.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo) (EZBL_MapWrite)
+ezbl_integration/ezbl_lib32mm.a(EZBL_AddrInTable.pic32mmo)
+                              ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo) (EZBL_AddrInTable)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-bootstrap-exception-handler.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/crt0_micromips.o (_bootstrap_exception_handler)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-reset.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/crt0_micromips.o (_on_reset)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-bootstrap.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/crt0_micromips.o (_on_bootstrap)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-nmi-handler.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/crt0_micromips.o (_nmi_handler)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(general-exception.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/crt0_micromips.o (_general_exception_context)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector0.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_0)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector1.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_1)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector2.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_2)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector3.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_3)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector4.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_4)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector5.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_5)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector6.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_6)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector7.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_7)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector8.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_8)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector9.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_9)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector10.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_10)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector11.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_11)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector12.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_12)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector13.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_13)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector14.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_14)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector15.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_15)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector16.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_16)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector17.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_17)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector18.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_18)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector19.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_19)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector20.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_20)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector21.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_21)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector22.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_22)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector25.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_25)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector26.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_26)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector27.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_27)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector28.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_28)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector29.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_29)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector30.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_30)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector31.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_31)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector32.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_32)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector33.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_33)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector34.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_34)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector35.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_35)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector36.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_36)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector37.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_37)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector38.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_38)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector39.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_39)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector40.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_40)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector41.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_41)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector42.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_42)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector43.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_43)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector44.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_44)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector45.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_45)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector46.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_46)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector47.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o (__vector_dispatch_47)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-general-exception-handler.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(general-exception.o) (_general_exception_handler)
+/opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(defaultinterrupt.o)
+                              /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector0.o) (_DefaultInterrupt)
+
+Allocating common symbols
+Common symbol       size              file
+
+EZBL_STDOUT         0x4               ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+EZBL_STDIN          0x4               ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+EZBL_NVMKey         0x4               ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+
+Microchip PIC32 Memory-Usage Report
+
+kseg0 Program-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.text.NOW_CORETMR_Reset 0x9d000000           0x18          24   
+.text.EZBL_RemappedVect 0x9d000018           0x18          24   
+.text.EZBL_ErasePage    0x9d000030          0x10e         270   
+.bev_excpt              0x9d000140            0xc          12  BEV-Exception 
+.text.EZBL_FIFOReset    0x9d00014c           0x14          20   
+.dbg_excpt              0x9d000160            0x8           8   
+.text.LEDOff            0x9d000168           0x18          24   
+.gen_excpt              0x9d000180            0xc          12   
+.text.ResetBRG          0x9d00018c          0x128         296   
+.text.NOW_IntEnable     0x9d0002b4            0x4           4   
+.vector_23_EZBL_RAMRedi 0x9d0002b8            0x8           8   
+.vector_24_EZBL_RAMRedi 0x9d0002c0            0x8           8   
+.text.EZBLAppSpaceGeome 0x9d0002c8           0x18          24   
+.text.EZBLNoEraseRanges 0x9d0002e0           0x20          32   
+.text.EZBLNoProgramRang 0x9d000300           0x18          24   
+.text.EZBLNoVerifyRange 0x9d000318           0x18          24   
+.text.EZBLEraseRestoreT 0x9d000330           0x28          40   
+.text.InitializeBoard   0x9d000358          0x1ac         428   
+.text.EZBL_BootloaderTa 0x9d000504          0x148         328   
+.text.RXInterruptFunc   0x9d00064c          0x120         288   
+.text.EZBL_EraseAppSpac 0x9d00076c           0x8e         142   
+.text.EZBL_FIFORead     0x9d0007fa            0x6           6   
+.reset                  0x9d000800          0x1cc         460  Reset handler 
+.text.EZBL_Install2Flas 0x9d0009cc          0x708        1800   
+.text.EZBL_FIFOSetBaud  0x9d0010d4           0xde         222   
+.text.RXTXInterrupt     0x9d0011b2           0xdc         220   
+.text.TX_FIFO_OnWrite   0x9d00128e           0xc6         198   
+.text.EZBL_IntCtrl      0x9d001354           0xbc         188   
+.text.EZBL_FIFOReadOrPe 0x9d001410           0xa2         162   
+.text.EZBL_RestoreAppEr 0x9d0014b2           0x8c         140   
+.text.RX_FIFO_OnRead    0x9d00153e           0x8c         140   
+.text.TXInterruptFunc   0x9d0015ca           0x8c         140   
+.text.TX_FIFO_Flush     0x9d001656           0x8a         138   
+.text.EZBL_VerifyROM    0x9d0016e0           0x86         134   
+.text.EZBL_FIFOWrite    0x9d001766           0x84         132   
+.text.general_exception 0x9d0017ea           0x80         128   
+.text.EZBL_Map          0x9d00186a           0x76         118   
+.text.main              0x9d0018e0           0x74         116   
+.text.EZBL_ForwardIRQ   0x9d001954           0x64         100   
+.text.EZBL_FIFOFlush    0x9d0019b8           0x58          88   
+.text.main_entry        0x9d001a10           0x44          68   
+.text.EZBL_RAMCopy      0x9d001a54           0x44          68   
+.rodata                 0x9d001a98            0x8           8  Read-only const 
+.rodata                 0x9d001aa0           0x40          64  Read-only const 
+.text.EZBL_ForwardAllIR 0x9d001ae0           0x40          64   
+.text                   0x9d001b20           0x40          64  App's exec code 
+.dinit                  0x9d001b60           0x40          64   
+.text.EZBL_IsPageErased 0x9d001ba0           0x3e          62   
+.text.EZBL_PreInstall   0x9d001be0           0x34          52   
+.text._bootstrap_except 0x9d001c14           0x34          52   
+.text._general_exceptio 0x9d001c48           0x34          52   
+.text.EZBL_CRC32        0x9d001c7c           0x32          50   
+.text.EZBL_AddrInTable  0x9d001cae           0x30          48   
+.vector_default         0x9d001ce0           0x30          48   
+.text._mon_putc         0x9d001d10           0x2c          44   
+.text.EZBL_CalcUxBRGH   0x9d001d3c           0x2a          42   
+.text._mon_getc         0x9d001d66           0x26          38   
+.text.NOW_Wait          0x9d001d8c           0x22          34   
+.text.NOW_64            0x9d001dae           0x20          32   
+.text.EZBL_RAMCompare   0x9d001dce           0x1e          30   
+.text                   0x9d001dec           0x18          24  App's exec code 
+.text.EZBL_RAMCopyEx    0x9d001e04           0x14          20   
+.text.EZBL_bootIDHash   0x9d001e18           0x10          16   
+.text.LEDToggle         0x9d001e28            0xc          12   
+.text.EZBL_WriteROMEx   0x9d001e34            0xa          10   
+.text.EZBL_FIFOPeek     0x9d001e3e            0x6           6   
+.text._on_reset         0x9d001e44            0x4           4   
+.text._on_bootstrap     0x9d001e48            0x4           4   
+      Total kseg0_program_mem used  :      0x1e46        7750  11.8% of 0x10000
+
+kseg1 Boot-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.EZBL_VectorDispatch000 0xbfc00000           0x2a          42   
+.text.EZBL_BootFlashFun 0xbfc00030          0x2ec         748   
+.EZBL_VectorDispatch038 0xbfc00380           0x14          20   
+.EZBL_VectorDispatch040 0xbfc00400           0x14          20   
+         Total kseg1_boot_mem used  :       0x33e         830  71.1% of 0x490
+        --------------------------------------------------------------------------
+         Total Program Memory used  :      0x2184        8580  12.9% of 0x10490
+        --------------------------------------------------------------------------
+
+
+kseg0 Data-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.dbg_data               0x80000000          0x200         512  Memory reserved for debugger exec 
+.persist                0x80000200           0xe8         232   
+.EZBL_ISRPointers       0x800002e8            0x8           8   
+.sbss                   0x800002f0           0x1c          28  Small uninit data 
+.COHERENTPERSIST$       0x80000310           0x34          52   
+         Total kseg0_data_mem used  :       0x340         832  10.2% of 0x2000
+        --------------------------------------------------------------------------
+            Total Data Memory used  :       0x340         832  10.2% of 0x2000
+        --------------------------------------------------------------------------
+
+
+Dynamic Data-Memory Reservation
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+heap                    0x80000358           0x10          16  Reserved for heap 
+stack                   0x80000380         0x1c78        7288  Reserved for stack 
+
+        --------------------------------------------------------------------------
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/crt0_micromips.o
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/crt0_micromips.o
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/crt0_micromips.o
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/debug-exception-return-mm.o
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/debug-exception-return-mm.o
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/debug-exception-return-mm.o
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/debug-exception-return-mm.o
+ .text          0x00000000        0x0 build/uart/production/hardware_initializers/pic32mm0256gpm064_explorer_16.o
+ .data          0x00000000        0x0 build/uart/production/hardware_initializers/pic32mm0256gpm064_explorer_16.o
+ .bss           0x00000000        0x0 build/uart/production/hardware_initializers/pic32mm0256gpm064_explorer_16.o
+ .reginfo       0x00000000       0x18 build/uart/production/hardware_initializers/pic32mm0256gpm064_explorer_16.o
+ .text          0x00000000        0x0 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+ .data          0x00000000        0x0 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+ .bss           0x00000000        0x0 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+ .reginfo       0x00000000       0x18 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+ .text          0x00000000        0x0 build/uart/production/main.o
+ .data          0x00000000        0x0 build/uart/production/main.o
+ .bss           0x00000000        0x0 build/uart/production/main.o
+ .reginfo       0x00000000       0x18 build/uart/production/main.o
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOFlush.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOFlush.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOFlush.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOFlush.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_IsPageErased.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_IsPageErased.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_IsPageErased.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_IsPageErased.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_ExceptionMux.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_ExceptionMux.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_ExceptionMux.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_ExceptionMux.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_IntCtrl.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_IntCtrl.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_IntCtrl.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_IntCtrl.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FLOW_THRESHOLD_default.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FLOW_THRESHOLD_default.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FLOW_THRESHOLD_default.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_FLOW_THRESHOLD_default.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_bootIDHash.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_bootIDHash.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_bootIDHash.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_bootIDHash.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_RX.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_RX.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_RX.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_RX.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_TX.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_TX.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_TX.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_TX.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .text.NOW_RdIntEn
+                0x00000000        0x4 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .text.NOW_CORETMR_ResetCalc
+                0x00000000       0x66 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .text.NOW_IntDisable
+                0x00000000        0x4 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .text.NOW_16   0x00000000       0x12 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_Fcy.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_Fcy.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_Fcy.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(NOW_Fcy.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_ms.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_ms.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_ms.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(NOW_ms.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_sec.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_sec.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_sec.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(NOW_sec.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_us.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_us.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_us.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(NOW_us.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_CalcUxBRGH.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_CalcUxBRGH.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_CalcUxBRGH.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_CalcUxBRGH.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .text.FIFO_EnableInterrupts
+                0x00000000       0x20 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .text.FIFO_DisableInterrupts
+                0x00000000       0x20 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .text.FIFO_ArmAutoBaud
+                0x00000000       0x2c ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .text.FIFO_QueryAutoBaud
+                0x00000000        0xe ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .text.TX_FIFO_WaitUntilFlushed
+                0x00000000       0x1e ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+ .text.LEDSet   0x00000000        0xc ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+ .text.LEDOn    0x00000000        0xc ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOReset.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOReset.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOReset.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOReset.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOWrite.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOWrite.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOWrite.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOWrite.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_CRC32.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_CRC32.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_CRC32.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_CRC32.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCompare.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCompare.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCompare.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCompare.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_Map.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_Map.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_Map.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_Map.pic32mmo)
+ .text          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_AddrInTable.pic32mmo)
+ .data          0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_AddrInTable.pic32mmo)
+ .bss           0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_AddrInTable.pic32mmo)
+ .reginfo       0x00000000       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_AddrInTable.pic32mmo)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/processor.o
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/processor.o
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/processor.o
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/processor.o
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o
+ .discard       0x00000000       0xc0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/pic32_software_reset-mm.o
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/pic32_software_reset-mm.o
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/pic32_software_reset-mm.o
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-bootstrap-exception-handler.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-bootstrap-exception-handler.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-bootstrap-exception-handler.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-bootstrap-exception-handler.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-reset.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-reset.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-reset.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-reset.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-bootstrap.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-bootstrap.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-bootstrap.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-bootstrap.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-nmi-handler.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-nmi-handler.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-nmi-handler.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(general-exception.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(general-exception.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(general-exception.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(general-exception.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector0.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector0.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector0.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector0.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector1.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector1.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector1.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector1.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector2.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector2.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector2.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector2.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector3.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector3.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector3.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector3.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector4.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector4.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector4.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector4.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector5.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector5.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector5.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector5.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector6.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector6.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector6.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector6.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector7.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector7.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector7.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector7.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector8.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector8.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector8.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector8.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector9.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector9.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector9.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector9.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector10.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector10.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector10.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector10.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector11.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector11.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector11.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector11.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector12.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector12.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector12.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector12.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector13.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector13.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector13.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector13.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector14.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector14.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector14.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector14.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector15.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector15.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector15.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector15.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector16.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector16.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector16.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector16.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector17.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector17.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector17.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector17.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector18.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector18.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector18.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector18.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector19.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector19.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector19.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector19.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector20.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector20.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector20.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector20.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector21.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector21.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector21.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector21.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector22.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector22.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector22.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector22.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector25.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector25.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector25.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector25.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector26.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector26.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector26.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector26.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector27.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector27.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector27.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector27.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector28.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector28.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector28.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector28.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector29.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector29.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector29.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector29.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector30.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector30.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector30.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector30.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector31.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector31.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector31.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector31.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector32.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector32.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector32.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector32.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector33.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector33.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector33.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector33.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector34.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector34.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector34.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector34.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector35.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector35.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector35.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector35.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector36.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector36.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector36.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector36.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector37.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector37.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector37.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector37.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector38.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector38.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector38.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector38.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector39.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector39.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector39.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector39.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector40.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector40.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector40.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector40.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector41.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector41.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector41.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector41.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector42.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector42.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector42.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector42.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector43.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector43.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector43.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector43.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector44.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector44.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector44.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector44.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector45.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector45.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector45.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector45.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector46.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector46.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector46.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector46.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector47.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector47.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector47.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(vector47.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-general-exception-handler.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-general-exception-handler.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-general-exception-handler.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-general-exception-handler.o)
+ .text          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(defaultinterrupt.o)
+ .data          0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(defaultinterrupt.o)
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(defaultinterrupt.o)
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(defaultinterrupt.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+kseg0_program_mem 0x9d000000         0x00010000         xr
+kseg1_boot_mem   0xbfc00000         0x00000490
+debug_exec_mem   0x9fc00490         0x00001270
+configsfrs       0xbfc01740         0x000000a8
+kseg0_data_mem   0x80000000         0x00002000         w !x
+sfrs             0xbf800000         0x00100000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/crt0_micromips.o
+LOAD /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/debug-exception-return-mm.o
+LOAD build/uart/production/hardware_initializers/pic32mm0256gpm064_explorer_16.o
+LOAD build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+LOAD build/uart/production/main.o
+LOAD ezbl_integration/ezbl_lib32mm.a
+                0x00000001                EZBL_BOOT_PROJECT = 0x1
+                0x00000001                __MPLAB_BUILD = 0x1
+                0x41e2c602                _BOOTID_HASH0 = 0x41e2c602
+                0x95a0be18                _BOOTID_HASH1 = 0x95a0be18
+                0x8e2b7cb0                _BOOTID_HASH2 = 0x8e2b7cb0
+                0x3750fdb4                _BOOTID_HASH3 = 0x3750fdb4
+                0x00000400                PROVIDE (_min_stack_size, 0x400)
+LOAD /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/processor.o
+                0x9d000000                PROVIDE (EZBL_BOOTLOADER_START, 0x9d000000)
+                0x00000000                PROVIDE (EZBL_BOOTLOADER_SIZE, 0x0)
+                0x9d002000                EZBL_BOOTLOADER_END = ALIGN ((EZBL_BOOTLOADER_START + EZBL_BOOTLOADER_SIZE), 0x800)
+                0x9d002000                PROVIDE (EZBL_APP_START, EZBL_BOOTLOADER_END)
+                0x9d010000                PROVIDE (EZBL_APP_END, (ORIGIN (kseg0_program_mem) + 0x10000))
+                0x9d000000                EZBL_BOOT_ebase_address = ALIGN (EZBL_BOOTLOADER_START, 0x1000)
+                0x9d002000                EZBL_APP_ebase_address = ALIGN (EZBL_APP_START, 0x1000)
+                0x9d002000                PROVIDE (_ebase_address, DEFINED (EZBL_BOOT_PROJECT)?EZBL_BOOT_ebase_address:EZBL_APP_ebase_address)
+                0x00000001                PROVIDE (_vector_spacing, 0x1)
+                0x9d000140                _BEV_EXCPT_ADDR = (_ebase_address + 0x140)
+                0x9d000160                _DBG_EXCPT_ADDR = (_ebase_address + 0x160)
+                0x9d000180                _GEN_EXCPT_ADDR = (_ebase_address + 0x180)
+                0x9d000200                _MVEC_INT_BASE_ADDR = (_ebase_address + 0x200)
+                0x9d000800                _RESET_ADDR = (_ebase_address + 0x800)
+                0x9fc00490                _DBG_CODE_ADDR = 0x9fc00490
+                0x00000760                _DBG_CODE_SIZE = 0x760
+                0x9d002000                EZBL_appBootloadState = EZBL_APP_START
+                0x9d002801                EZBL_AppEntry = (EZBL_APP_ebase_address + 0x801)
+                0x00002000                EZBL_BOOTLOADER_SIZE = 0x2000
+
+.config_BFC01740
+ *(.config_BFC01740)
+
+.config_BFC01744
+ *(.config_BFC01744)
+
+.config_BFC01748
+ *(.config_BFC01748)
+
+.config_BFC0174C
+ *(.config_BFC0174C)
+
+.config_BFC01750
+ *(.config_BFC01750)
+
+.config_BFC01754
+ *(.config_BFC01754)
+
+.config_BFC01758
+ *(.config_BFC01758)
+
+.config_BFC0175C
+ *(.config_BFC0175C)
+
+.config_BFC01760
+ *(.config_BFC01760)
+
+.config_BFC01764
+ *(.config_BFC01764)
+
+.config_BFC017C0
+ *(.config_BFC017C0)
+
+.config_BFC017C4
+                0xbfc017c4        0x4
+ *(.config_BFC017C4)
+ .config_BFC017C4
+                0xbfc017c4        0x4 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+
+.config_BFC017C8
+                0xbfc017c8        0x4
+ *(.config_BFC017C8)
+ .config_BFC017C8
+                0xbfc017c8        0x4 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+
+.config_BFC017CC
+                0xbfc017cc        0x4
+ *(.config_BFC017CC)
+ .config_BFC017CC
+                0xbfc017cc        0x4 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+
+.config_BFC017D0
+                0xbfc017d0        0x4
+ *(.config_BFC017D0)
+ .config_BFC017D0
+                0xbfc017d0        0x4 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+
+.config_BFC017D4
+                0xbfc017d4        0x4
+ *(.config_BFC017D4)
+ .config_BFC017D4
+                0xbfc017d4        0x4 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+
+.config_BFC017D8
+                0xbfc017d8        0x4
+ *(.config_BFC017D8)
+ .config_BFC017D8
+                0xbfc017d8        0x4 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+
+.config_BFC017DC
+ *(.config_BFC017DC)
+
+.config_BFC017E0
+ *(.config_BFC017E0)
+
+.config_BFC017E4
+ *(.config_BFC017E4)
+
+.text.EZBL_BootFlashFunc
+                0xbfc00030      0x2ec
+ *(.text.EZBL_BootFlashFunc*)
+ .text.EZBL_BootFlashFunc
+                0xbfc00030      0x2ec ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+                0xbfc0015b                __EZBL_WriteROMEx
+
+.dbg_code       0x9fc00490     0x1270
+                0x9fc01700                . = (. + DEFINED (_DEBUGGER)?0x0:0x1270)
+ *fill*         0x9fc00490     0x1270 
+
+.reset          0x9d000800      0x1cc
+ *(.reset)
+ .reset         0x9d000800        0x8 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/crt0_micromips.o
+                0x9d000801                _reset
+ *(.reset.startup)
+ .reset.startup
+                0x9d000808      0x1c4 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/crt0_micromips.o
+                0x9d000809                _startup
+
+.bev_excpt      0x9d000140        0xc
+ *(.bev_handler)
+ .bev_handler   0x9d000140        0xc /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/crt0_micromips.o
+
+.dbg_excpt      0x9d000160        0x8
+                0x9d000168                . = (. + 0x8)
+ *fill*         0x9d000160        0x8 
+
+.gen_excpt      0x9d000180        0xc
+ *EZBL*(.gen_handler)
+ *(EXCLUDE_FILE(*EZBL*) .gen_handler)
+ .gen_handler   0x9d000180        0xc /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/crt0_micromips.o
+
+/DISCARD/
+ *(._debug_exception)
+ vector?.o(.vector_*)
+ vector??.o(.vector_*)
+ vector???.o(.vector_*)
+ *(.pdr)
+ *(.rel.dyn)
+ *(.note.GNU-stack)
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+ *(.discard)
+
+.text.EZBL_RemappedVectors
+                0x9d000018       0x18
+                0x9d000018        0x4 LONG 0x17
+                0x9d00001c                EZBL_Vector23Original = ABSOLUTE (.)
+ *(.vector_23)
+ .vector_23     0x9d00001c        0x8 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+                0x9d00001d                __vector_dispatch_23
+                0x9d000024        0x4 LONG 0x18
+                0x9d000028                EZBL_Vector24Original = ABSOLUTE (.)
+ *(.vector_24)
+ .vector_24     0x9d000028        0x8 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+                0x9d000029                __vector_dispatch_24
+
+.vector_23_EZBL_RAMRedirect
+                0x9d0002b8        0x8
+                0x9d0002b8        0x4 LONG 0x8008ff5c (((0xff5c0000 | (ABSOLUTE ((ABSOLUTE (EZBL_Vector23ISRPtr) - ABSOLUTE (_gp))) & 0xffff)) << 0x10) | ((0xff5c0000 | (ABSOLUTE ((ABSOLUTE (EZBL_Vector23ISRPtr) - ABSOLUTE (_gp))) & 0xffff)) >> 0x10))
+                0x00000001                ASSERT ((0x1 && (((ABSOLUTE ((ABSOLUTE (EZBL_Vector23ISRPtr) - ABSOLUTE (_gp))) & 0xffff0000) == 0x0) || ((ABSOLUTE ((ABSOLUTE (EZBL_Vector23ISRPtr) - ABSOLUTE (_gp))) & 0xffff0000) == 0xffff0000))), Illegal parameters for LW32)
+                0x9d0002bc        0x2 SHORT 0x45ba
+                0x00000001                ASSERT (0x1, Illegal parameters for JRC16)
+                0x9d0002be        0x2 SHORT 0xc00
+
+.vector_24_EZBL_RAMRedirect
+                0x9d0002c0        0x8
+                0x9d0002c0        0x4 LONG 0x800cff5c (((0xff5c0000 | (ABSOLUTE ((ABSOLUTE (EZBL_Vector24ISRPtr) - ABSOLUTE (_gp))) & 0xffff)) << 0x10) | ((0xff5c0000 | (ABSOLUTE ((ABSOLUTE (EZBL_Vector24ISRPtr) - ABSOLUTE (_gp))) & 0xffff)) >> 0x10))
+                0x00000001                ASSERT ((0x1 && (((ABSOLUTE ((ABSOLUTE (EZBL_Vector24ISRPtr) - ABSOLUTE (_gp))) & 0xffff0000) == 0x0) || ((ABSOLUTE ((ABSOLUTE (EZBL_Vector24ISRPtr) - ABSOLUTE (_gp))) & 0xffff0000) == 0xffff0000))), Illegal parameters for LW32)
+                0x9d0002c4        0x2 SHORT 0x45ba
+                0x00000001                ASSERT (0x1, Illegal parameters for JRC16)
+                0x9d0002c6        0x2 SHORT 0xc00
+
+.vector_0       0x9d000200        0x0
+ *(.vector_0)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_0) <= (_vector_spacing << 0x3))), function at exception vector 0 too large)
+
+.vector_1       0x9d000208        0x0
+ *(.vector_1)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_1) <= (_vector_spacing << 0x3))), function at exception vector 1 too large)
+
+.vector_2       0x9d000210        0x0
+ *(.vector_2)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_2) <= (_vector_spacing << 0x3))), function at exception vector 2 too large)
+
+.vector_3       0x9d000218        0x0
+ *(.vector_3)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_3) <= (_vector_spacing << 0x3))), function at exception vector 3 too large)
+
+.vector_4       0x9d000220        0x0
+ *(.vector_4)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_4) <= (_vector_spacing << 0x3))), function at exception vector 4 too large)
+
+.vector_5       0x9d000228        0x0
+ *(.vector_5)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_5) <= (_vector_spacing << 0x3))), function at exception vector 5 too large)
+
+.vector_6       0x9d000230        0x0
+ *(.vector_6)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_6) <= (_vector_spacing << 0x3))), function at exception vector 6 too large)
+
+.vector_7       0x9d000238        0x0
+ *(.vector_7)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_7) <= (_vector_spacing << 0x3))), function at exception vector 7 too large)
+
+.vector_8       0x9d000240        0x0
+ *(.vector_8)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_8) <= (_vector_spacing << 0x3))), function at exception vector 8 too large)
+
+.vector_9       0x9d000248        0x0
+ *(.vector_9)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_9) <= (_vector_spacing << 0x3))), function at exception vector 9 too large)
+
+.vector_10      0x9d000250        0x0
+ *(.vector_10)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_10) <= (_vector_spacing << 0x3))), function at exception vector 10 too large)
+
+.vector_11      0x9d000258        0x0
+ *(.vector_11)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_11) <= (_vector_spacing << 0x3))), function at exception vector 11 too large)
+
+.vector_12      0x9d000260        0x0
+ *(.vector_12)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_12) <= (_vector_spacing << 0x3))), function at exception vector 12 too large)
+
+.vector_13      0x9d000268        0x0
+ *(.vector_13)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_13) <= (_vector_spacing << 0x3))), function at exception vector 13 too large)
+
+.vector_14      0x9d000270        0x0
+ *(.vector_14)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_14) <= (_vector_spacing << 0x3))), function at exception vector 14 too large)
+
+.vector_15      0x9d000278        0x0
+ *(.vector_15)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_15) <= (_vector_spacing << 0x3))), function at exception vector 15 too large)
+
+.vector_16      0x9d000280        0x0
+ *(.vector_16)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_16) <= (_vector_spacing << 0x3))), function at exception vector 16 too large)
+
+.vector_17      0x9d000288        0x0
+ *(.vector_17)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_17) <= (_vector_spacing << 0x3))), function at exception vector 17 too large)
+
+.vector_18      0x9d000290        0x0
+ *(.vector_18)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_18) <= (_vector_spacing << 0x3))), function at exception vector 18 too large)
+
+.vector_19      0x9d000298        0x0
+ *(.vector_19)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_19) <= (_vector_spacing << 0x3))), function at exception vector 19 too large)
+
+.vector_20      0x9d0002a0        0x0
+ *(.vector_20)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_20) <= (_vector_spacing << 0x3))), function at exception vector 20 too large)
+
+.vector_21      0x9d0002a8        0x0
+ *(.vector_21)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_21) <= (_vector_spacing << 0x3))), function at exception vector 21 too large)
+
+.vector_22      0x9d0002b0        0x0
+ *(.vector_22)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_22) <= (_vector_spacing << 0x3))), function at exception vector 22 too large)
+
+.vector_23      0x9d0002b8        0x0
+ *(.vector_23)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_23) <= (_vector_spacing << 0x3))), function at exception vector 23 too large)
+
+.vector_24      0x9d0002c0        0x0
+ *(.vector_24)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_24) <= (_vector_spacing << 0x3))), function at exception vector 24 too large)
+
+.vector_25      0x9d0002c8        0x0
+ *(.vector_25)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_25) <= (_vector_spacing << 0x3))), function at exception vector 25 too large)
+
+.vector_26      0x9d0002d0        0x0
+ *(.vector_26)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_26) <= (_vector_spacing << 0x3))), function at exception vector 26 too large)
+
+.vector_27      0x9d0002d8        0x0
+ *(.vector_27)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_27) <= (_vector_spacing << 0x3))), function at exception vector 27 too large)
+
+.vector_28      0x9d0002e0        0x0
+ *(.vector_28)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_28) <= (_vector_spacing << 0x3))), function at exception vector 28 too large)
+
+.vector_29      0x9d0002e8        0x0
+ *(.vector_29)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_29) <= (_vector_spacing << 0x3))), function at exception vector 29 too large)
+
+.vector_30      0x9d0002f0        0x0
+ *(.vector_30)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_30) <= (_vector_spacing << 0x3))), function at exception vector 30 too large)
+
+.vector_31      0x9d0002f8        0x0
+ *(.vector_31)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_31) <= (_vector_spacing << 0x3))), function at exception vector 31 too large)
+
+.vector_32      0x9d000300        0x0
+ *(.vector_32)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_32) <= (_vector_spacing << 0x3))), function at exception vector 32 too large)
+
+.vector_33      0x9d000308        0x0
+ *(.vector_33)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_33) <= (_vector_spacing << 0x3))), function at exception vector 33 too large)
+
+.vector_34      0x9d000310        0x0
+ *(.vector_34)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_34) <= (_vector_spacing << 0x3))), function at exception vector 34 too large)
+
+.vector_35      0x9d000318        0x0
+ *(.vector_35)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_35) <= (_vector_spacing << 0x3))), function at exception vector 35 too large)
+
+.vector_36      0x9d000320        0x0
+ *(.vector_36)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_36) <= (_vector_spacing << 0x3))), function at exception vector 36 too large)
+
+.vector_37      0x9d000328        0x0
+ *(.vector_37)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_37) <= (_vector_spacing << 0x3))), function at exception vector 37 too large)
+
+.vector_38      0x9d000330        0x0
+ *(.vector_38)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_38) <= (_vector_spacing << 0x3))), function at exception vector 38 too large)
+
+.vector_39      0x9d000338        0x0
+ *(.vector_39)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_39) <= (_vector_spacing << 0x3))), function at exception vector 39 too large)
+
+.vector_40      0x9d000340        0x0
+ *(.vector_40)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_40) <= (_vector_spacing << 0x3))), function at exception vector 40 too large)
+
+.vector_41      0x9d000348        0x0
+ *(.vector_41)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_41) <= (_vector_spacing << 0x3))), function at exception vector 41 too large)
+
+.vector_42      0x9d000350        0x0
+ *(.vector_42)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_42) <= (_vector_spacing << 0x3))), function at exception vector 42 too large)
+
+.vector_43      0x9d000358        0x0
+ *(.vector_43)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_43) <= (_vector_spacing << 0x3))), function at exception vector 43 too large)
+
+.vector_44      0x9d000360        0x0
+ *(.vector_44)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_44) <= (_vector_spacing << 0x3))), function at exception vector 44 too large)
+
+.vector_45      0x9d000368        0x0
+ *(.vector_45)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_45) <= (_vector_spacing << 0x3))), function at exception vector 45 too large)
+
+.vector_46      0x9d000370        0x0
+ *(.vector_46)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_46) <= (_vector_spacing << 0x3))), function at exception vector 46 too large)
+
+.vector_47      0x9d000378        0x0
+ *(.vector_47)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_47) <= (_vector_spacing << 0x3))), function at exception vector 47 too large)
+
+.vector_48      0x9d000380        0x0
+ *(.vector_48)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_48) <= (_vector_spacing << 0x3))), function at exception vector 48 too large)
+
+.vector_49      0x9d000388        0x0
+ *(.vector_49)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_49) <= (_vector_spacing << 0x3))), function at exception vector 49 too large)
+
+.vector_50      0x9d000390        0x0
+ *(.vector_50)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_50) <= (_vector_spacing << 0x3))), function at exception vector 50 too large)
+
+.vector_51      0x9d000398        0x0
+ *(.vector_51)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_51) <= (_vector_spacing << 0x3))), function at exception vector 51 too large)
+
+.vector_52      0x9d0003a0        0x0
+ *(.vector_52)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_52) <= (_vector_spacing << 0x3))), function at exception vector 52 too large)
+
+.vector_53      0x9d0003a8        0x0
+ *(.vector_53)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_53) <= (_vector_spacing << 0x3))), function at exception vector 53 too large)
+
+.vector_54      0x9d0003b0        0x0
+ *(.vector_54)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_54) <= (_vector_spacing << 0x3))), function at exception vector 54 too large)
+
+.vector_55      0x9d0003b8        0x0
+ *(.vector_55)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_55) <= (_vector_spacing << 0x3))), function at exception vector 55 too large)
+
+.vector_56      0x9d0003c0        0x0
+ *(.vector_56)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_56) <= (_vector_spacing << 0x3))), function at exception vector 56 too large)
+
+.vector_57      0x9d0003c8        0x0
+ *(.vector_57)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_57) <= (_vector_spacing << 0x3))), function at exception vector 57 too large)
+
+.vector_58      0x9d0003d0        0x0
+ *(.vector_58)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_58) <= (_vector_spacing << 0x3))), function at exception vector 58 too large)
+
+.vector_59      0x9d0003d8        0x0
+ *(.vector_59)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_59) <= (_vector_spacing << 0x3))), function at exception vector 59 too large)
+
+.vector_60      0x9d0003e0        0x0
+ *(.vector_60)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_60) <= (_vector_spacing << 0x3))), function at exception vector 60 too large)
+
+.vector_61      0x9d0003e8        0x0
+ *(.vector_61)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_61) <= (_vector_spacing << 0x3))), function at exception vector 61 too large)
+
+.vector_62      0x9d0003f0        0x0
+ *(.vector_62)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_62) <= (_vector_spacing << 0x3))), function at exception vector 62 too large)
+
+.vector_63      0x9d0003f8        0x0
+ *(.vector_63)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_63) <= (_vector_spacing << 0x3))), function at exception vector 63 too large)
+
+.vector_64      0x9d000400        0x0
+ *(.vector_64)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_64) <= (_vector_spacing << 0x3))), function at exception vector 64 too large)
+
+.vector_65      0x9d000408        0x0
+ *(.vector_65)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_65) <= (_vector_spacing << 0x3))), function at exception vector 65 too large)
+
+.vector_66      0x9d000410        0x0
+ *(.vector_66)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_66) <= (_vector_spacing << 0x3))), function at exception vector 66 too large)
+
+.vector_67      0x9d000418        0x0
+ *(.vector_67)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_67) <= (_vector_spacing << 0x3))), function at exception vector 67 too large)
+
+.vector_68      0x9d000420        0x0
+ *(.vector_68)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_68) <= (_vector_spacing << 0x3))), function at exception vector 68 too large)
+
+.vector_69      0x9d000428        0x0
+ *(.vector_69)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_69) <= (_vector_spacing << 0x3))), function at exception vector 69 too large)
+
+.vector_70      0x9d000430        0x0
+ *(.vector_70)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_70) <= (_vector_spacing << 0x3))), function at exception vector 70 too large)
+
+.vector_71      0x9d000438        0x0
+ *(.vector_71)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_71) <= (_vector_spacing << 0x3))), function at exception vector 71 too large)
+
+.vector_72      0x9d000440        0x0
+ *(.vector_72)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_72) <= (_vector_spacing << 0x3))), function at exception vector 72 too large)
+
+.vector_73      0x9d000448        0x0
+ *(.vector_73)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_73) <= (_vector_spacing << 0x3))), function at exception vector 73 too large)
+
+.vector_74      0x9d000450        0x0
+ *(.vector_74)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_74) <= (_vector_spacing << 0x3))), function at exception vector 74 too large)
+
+.vector_75      0x9d000458        0x0
+ *(.vector_75)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_75) <= (_vector_spacing << 0x3))), function at exception vector 75 too large)
+
+.vector_76      0x9d000460        0x0
+ *(.vector_76)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_76) <= (_vector_spacing << 0x3))), function at exception vector 76 too large)
+
+.vector_77      0x9d000468        0x0
+ *(.vector_77)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_77) <= (_vector_spacing << 0x3))), function at exception vector 77 too large)
+
+.vector_78      0x9d000470        0x0
+ *(.vector_78)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_78) <= (_vector_spacing << 0x3))), function at exception vector 78 too large)
+
+.vector_79      0x9d000478        0x0
+ *(.vector_79)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_79) <= (_vector_spacing << 0x3))), function at exception vector 79 too large)
+
+.vector_80      0x9d000480        0x0
+ *(.vector_80)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_80) <= (_vector_spacing << 0x3))), function at exception vector 80 too large)
+
+.vector_81      0x9d000488        0x0
+ *(.vector_81)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_81) <= (_vector_spacing << 0x3))), function at exception vector 81 too large)
+
+.vector_82      0x9d000490        0x0
+ *(.vector_82)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_82) <= (_vector_spacing << 0x3))), function at exception vector 82 too large)
+
+.vector_83      0x9d000498        0x0
+ *(.vector_83)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_83) <= (_vector_spacing << 0x3))), function at exception vector 83 too large)
+
+.vector_84      0x9d0004a0        0x0
+ *(.vector_84)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_84) <= (_vector_spacing << 0x3))), function at exception vector 84 too large)
+
+.vector_85      0x9d0004a8        0x0
+ *(.vector_85)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_85) <= (_vector_spacing << 0x3))), function at exception vector 85 too large)
+
+.vector_86      0x9d0004b0        0x0
+ *(.vector_86)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_86) <= (_vector_spacing << 0x3))), function at exception vector 86 too large)
+
+.vector_87      0x9d0004b8        0x0
+ *(.vector_87)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_87) <= (_vector_spacing << 0x3))), function at exception vector 87 too large)
+
+.vector_88      0x9d0004c0        0x0
+ *(.vector_88)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_88) <= (_vector_spacing << 0x3))), function at exception vector 88 too large)
+
+.vector_89      0x9d0004c8        0x0
+ *(.vector_89)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_89) <= (_vector_spacing << 0x3))), function at exception vector 89 too large)
+
+.vector_90      0x9d0004d0        0x0
+ *(.vector_90)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_90) <= (_vector_spacing << 0x3))), function at exception vector 90 too large)
+
+.vector_91      0x9d0004d8        0x0
+ *(.vector_91)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_91) <= (_vector_spacing << 0x3))), function at exception vector 91 too large)
+
+.vector_92      0x9d0004e0        0x0
+ *(.vector_92)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_92) <= (_vector_spacing << 0x3))), function at exception vector 92 too large)
+
+.vector_93      0x9d0004e8        0x0
+ *(.vector_93)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_93) <= (_vector_spacing << 0x3))), function at exception vector 93 too large)
+
+.vector_94      0x9d0004f0        0x0
+ *(.vector_94)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_94) <= (_vector_spacing << 0x3))), function at exception vector 94 too large)
+
+.vector_95      0x9d0004f8        0x0
+ *(.vector_95)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_95) <= (_vector_spacing << 0x3))), function at exception vector 95 too large)
+
+.vector_96      0x9d000500        0x0
+ *(.vector_96)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_96) <= (_vector_spacing << 0x3))), function at exception vector 96 too large)
+
+.vector_97      0x9d000508        0x0
+ *(.vector_97)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_97) <= (_vector_spacing << 0x3))), function at exception vector 97 too large)
+
+.vector_98      0x9d000510        0x0
+ *(.vector_98)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_98) <= (_vector_spacing << 0x3))), function at exception vector 98 too large)
+
+.vector_99      0x9d000518        0x0
+ *(.vector_99)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_99) <= (_vector_spacing << 0x3))), function at exception vector 99 too large)
+
+.vector_100     0x9d000520        0x0
+ *(.vector_100)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_100) <= (_vector_spacing << 0x3))), function at exception vector 100 too large)
+
+.vector_101     0x9d000528        0x0
+ *(.vector_101)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_101) <= (_vector_spacing << 0x3))), function at exception vector 101 too large)
+
+.text.EZBLAppSpaceGeometry
+                0x9d0002c8       0x18
+ *(.text.EZBLAppSpaceGeometry*)
+ .text.EZBLAppSpaceGeometry
+                0x9d0002c8        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+                0x9d0002c8        0x4 LONG 0x9d002000
+                0x9d0002cc        0x4 LONG 0x9d010000
+                0x9d0002d0        0x4 LONG 0xbfc01740
+                0x9d0002d4        0x4 LONG 0xbfc017c0
+                0x9d0002d8        0x4 LONG 0xbfc017e8
+                0x9d0002dc        0x4 LONG 0xbfc01800
+
+.text.EZBLNoEraseRanges
+                0x9d0002e0       0x20
+ *(.text.EZBLNoEraseRanges*)
+ .text.EZBLNoEraseRanges
+                0x9d0002e0        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+                0x9d0002e0        0x4 LONG 0x9d000000
+                0x9d0002e4        0x4 LONG 0x9d002000
+                0x9d0002e8        0x4 LONG 0xbfc00000
+                0x9d0002ec        0x4 LONG 0xbfc01740
+                0x9d0002f0        0x4 LONG 0xbfc017c8
+                0x9d0002f4        0x4 LONG 0xbfc017d0
+                0x9d0002f8        0x4 LONG 0xbfc017e0
+                0x9d0002fc        0x4 LONG 0xbfc017e8
+
+.text.EZBLNoProgramRanges
+                0x9d000300       0x18
+ *(.text.EZBLNoProgramRanges*)
+ .text.EZBLNoProgramRanges
+                0x9d000300        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+                0x9d000300        0x4 LONG 0x9d000000
+                0x9d000304        0x4 LONG 0x9d002018
+                0x9d000308        0x4 LONG 0xbfc00000
+                0x9d00030c        0x4 LONG 0xbfc01740
+                0x9d000310        0x4 LONG 0xbfc017c0
+                0x9d000314        0x4 LONG 0xbfc017e8
+
+.text.EZBLNoVerifyRanges
+                0x9d000318       0x18
+ *(.text.EZBLNoVerifyRanges*)
+ .text.EZBLNoVerifyRanges
+                0x9d000318        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+                0x9d000318        0x4 LONG 0x9d002000
+                0x9d00031c        0x4 LONG 0x9d002018
+                0x9d000320        0x4 LONG 0xbfc017c8
+                0x9d000324        0x4 LONG 0xbfc017d0
+                0x9d000328        0x4 LONG 0xbfc017e0
+                0x9d00032c        0x4 LONG 0xbfc017e8
+
+.text.EZBLEraseRestoreTable
+                0x9d000330       0x28
+ *(.text.EZBLEraseRestoreTable*)
+ .text.EZBLEraseRestoreTable
+                0x9d000330        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+                0x9d000330        0x4 LONG 0xbfc017c0
+                0x9d000334        0x4 LONG 0x20
+                0x9d000338        0x4 LONG 0xffffffff
+                0x9d00033c        0x4 LONG 0xffffffff
+                0x9d000340        0x4 LONG 0xfffffff8
+                0x9d000344        0x4 LONG 0xfffffffa
+                0x9d000348        0x4 LONG 0xffff698a
+                0x9d00034c        0x4 LONG 0xffffefb9
+                0x9d000350        0x4 LONG 0xffffffff
+                0x9d000354        0x4 LONG 0xffffffff
+
+.text           0x9d000358        0x0
+ *(.stub .gnu.linkonce.t.*)
+ *(.text.*personality*)
+ *(.mips16.fn.*)
+ *(.mips16.call.*)
+ *(.gnu.warning)
+                0x9d000358                . = ALIGN (0x4)
+
+.init           0x9d000358        0x0
+ *crti.o(.init)
+ *crtbegin.o(.init)
+ *(EXCLUDE_FILE(*crtn.o *crtend?.o *crtend.o) .init)
+ *crtend.o(.init)
+ *crtn.o(.init)
+                0x9d000358                . = ALIGN (0x4)
+
+.fini           0x9d000358        0x0
+ *(.fini)
+                0x9d000358                . = ALIGN (0x4)
+
+.preinit_array  0x9d000358        0x0
+                0x9d000358                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x9d000358                PROVIDE (__preinit_array_end, .)
+                0x9d000358                . = ALIGN (0x4)
+
+.init_array     0x9d000358        0x0
+                0x9d000358                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x9d000358                PROVIDE (__init_array_end, .)
+                0x9d000358                . = ALIGN (0x4)
+
+.fini_array     0x9d000358        0x0
+                0x9d000358                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x9d000358                PROVIDE (__fini_array_end, .)
+                0x9d000358                . = ALIGN (0x4)
+
+.ctors          0x9d000358        0x0
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x9d000358                . = ALIGN (0x4)
+
+.dtors          0x9d000358        0x0
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x9d000358                . = ALIGN (0x4)
+
+.rodata         0x9d000358        0x0
+ *(.gnu.linkonce.r.*)
+ *(.rodata1)
+                0x9d000358                . = ALIGN (0x4)
+
+.sdata2         0x9d000358        0x0
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x9d000358                . = ALIGN (0x4)
+
+.sbss2          0x9d000358        0x0
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+                0x9d000358                . = ALIGN (0x4)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+                0x9d000358                . = ALIGN (0x4)
+
+.eh_frame
+ *(.eh_frame)
+                0x9d000358                . = ALIGN (0x4)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+                0x9d000358                . = ALIGN (0x4)
+
+.dbg_data       0x80000000      0x200
+                0x80000200                . = (. + 0x200)
+ *fill*         0x80000000      0x200 
+
+.jcr            0x80000200        0x0
+ *(.jcr)
+                0x80000200                . = ALIGN (0x4)
+
+.eh_frame
+ *(.eh_frame)
+                0x80000200                . = ALIGN (0x4)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+                0x80000200                . = ALIGN (0x4)
+
+.persist        0x80000200       0xe8
+                0x80000200                _persist_begin = .
+ *(.persist .persist.*)
+ *(.pbss .pbss.*)
+ .pbss          0x80000200        0x8 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .pbss          0x80000208        0x4 ezbl_integration/ezbl_lib32mm.a(NOW_Fcy.pic32mmo)
+                0x80000208                NOW_systemFrequency
+                0x80000208                NOW_Fcy
+ .pbss          0x8000020c        0x4 ezbl_integration/ezbl_lib32mm.a(NOW_ms.pic32mmo)
+                0x8000020c                NOW_millisecond
+                0x8000020c                NOW_ms
+ .pbss          0x80000210        0x4 ezbl_integration/ezbl_lib32mm.a(NOW_sec.pic32mmo)
+                0x80000210                NOW_sec
+                0x80000210                NOW_second
+ .pbss          0x80000214        0x2 ezbl_integration/ezbl_lib32mm.a(NOW_us.pic32mmo)
+                0x80000214                NOW_us
+                0x80000214                NOW_microsecond
+ *fill*         0x80000216        0x2 
+ .pbss          0x80000218       0xd0 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+                0x80000218                UART1_RxFifoBuffer
+                0x80000278                UART1_TxFifoBuffer
+                0x80000298                UART1_RxFifo
+                0x800002c0                UART1_TxFifo
+                0x800002e8                . = ALIGN (0x4)
+                0x800002e8                _persist_end = .
+
+.data           0x800002e8        0x0
+ *(.gnu.linkonce.d.*)
+ *(.data1)
+                0x800002e8                . = ALIGN (0x4)
+                0x800002e8                . = .
+                [0x800082e0]                _gp = (DEFINED (EZBL_BOOT_PROJECT) || ! (DEFINED (_gp)))?(ALIGN (0x10) + 0x7ff0):ABSOLUTE (_gp)
+
+.got            0x800002e8        0x0
+ *(.got.plt)
+ *(.got)
+                0x800002e8                . = ALIGN (0x4)
+
+.EZBL_ISRPointers
+                0x800002e8        0x8
+                0x800002e8                EZBL_ISRPointers = ABSOLUTE (.)
+                0x800002e8                EZBL_Vector23ISRPtr = .
+                0x800002ec                . = (. + 0x4)
+ *fill*         0x800002e8        0x4 
+                0x800002ec                EZBL_Vector24ISRPtr = .
+                0x800002f0                . = (. + 0x4)
+ *fill*         0x800002ec        0x4 
+
+.sdata          0x800002f0        0x0
+                0x800002f0                _sdata_begin = .
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+                0x800002f0                . = ALIGN (0x4)
+                0x800002f0                _sdata_end = .
+
+.lit8
+ *(.lit8)
+
+.lit4
+ *(.lit4)
+                0x800002f0                . = ALIGN (0x4)
+                0x800002f0                _data_end = .
+                0x800002f0                _bss_begin = .
+
+.sbss           0x800002f0       0x1c
+                0x800002f0                _sbss_begin = .
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss.EZBL_AppPreInstall.EZBL_AppPreInstall
+                0x800002f0        0x4 build/uart/production/main.o
+                0x800002f0                EZBL_AppPreInstall
+ .sbss          0x800002f4        0x4 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_RX.pic32mmo)
+                0x800002f4                EZBL_COM_RX
+ .sbss          0x800002f8        0x4 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_TX.pic32mmo)
+                0x800002f8                EZBL_COM_TX
+ .sbss          0x800002fc        0x1 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ *(.scommon)
+ *fill*         0x800002fd        0x3 
+ .scommon       0x80000300        0x4 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+                0x80000300                EZBL_NVMKey
+ .scommon       0x80000304        0x8 ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+                0x80000304                EZBL_STDOUT
+                0x80000308                EZBL_STDIN
+                0x8000030c                _sbss_end = .
+                0x8000030c                . = ALIGN (0x4)
+
+.bss            0x8000030c        0x0
+ *(.dynbss)
+ *(COMMON)
+                0x8000030c                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x8000030c                . = ALIGN (0x4)
+                0x8000030c                _end = .
+                0x8000030c                _bss_end = .
+                0x00002000                _bmxdudba_address = 0x2000
+                0x00002000                _bmxdupba_address = 0x2000
+
+.gptab.sdata
+ *(.gptab.data)
+ *(.gptab.sdata)
+
+.gptab.sbss
+ *(.gptab.bss)
+ *(.gptab.sbss)
+
+.mdebug.abi32   0x00000000        0x0
+ *(.mdebug.abi32)
+ .mdebug.abi32  0x00000000        0x0 build/uart/production/hardware_initializers/pic32mm0256gpm064_explorer_16.o
+ .mdebug.abi32  0x00000000        0x0 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+ .mdebug.abi32  0x00000000        0x0 build/uart/production/main.o
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOFlush.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_IsPageErased.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_RX.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_TX.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_Fcy.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_ms.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_sec.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_us.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_CalcUxBRGH.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOReset.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOWrite.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_CRC32.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCompare.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_AddrInTable.pic32mmo)
+ .mdebug.abi32  0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-bootstrap-exception-handler.o)
+ .mdebug.abi32  0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-reset.o)
+ .mdebug.abi32  0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-bootstrap.o)
+ .mdebug.abi32  0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-general-exception-handler.o)
+ .mdebug.abi32  0x00000000        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(defaultinterrupt.o)
+
+.mdebug.abiN32
+ *(.mdebug.abiN32)
+
+.mdebug.abi64
+ *(.mdebug.abi64)
+
+.mdebug.abiO64
+ *(.mdebug.abiO64)
+
+.mdebug.eabi32
+ *(.mdebug.eabi32)
+
+.mdebug.eabi64
+ *(.mdebug.eabi64)
+
+.gcc_compiled_long32
+ *(.gcc_compiled_long32)
+
+.gcc_compiled_long64
+ *(.gcc_compiled_long64)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x78
+ *(.comment)
+ .comment       0x00000000       0x3c build/uart/production/hardware_initializers/pic32mm0256gpm064_explorer_16.o
+                                 0x3d (size before relaxing)
+ .comment       0x00000000       0x3d build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+ .comment       0x00000000       0x3d build/uart/production/main.o
+ .comment       0x0000003c       0x3c ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo)
+                                 0x3d (size before relaxing)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOFlush.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(EZBL_IsPageErased.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(EZBL_COM_RX.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(EZBL_COM_TX.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(NOW_Fcy.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(NOW_ms.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(NOW_sec.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(NOW_us.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(EZBL_CalcUxBRGH.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOReset.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOWrite.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(EZBL_CRC32.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCompare.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+ .comment       0x00000000       0x3d ezbl_integration/ezbl_lib32mm.a(EZBL_AddrInTable.pic32mmo)
+ .comment       0x00000000       0x3d /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-bootstrap-exception-handler.o)
+ .comment       0x00000000       0x3d /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-reset.o)
+ .comment       0x00000000       0x3d /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-bootstrap.o)
+ .comment       0x00000000       0x3d /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-general-exception-handler.o)
+ .comment       0x00000000       0x3d /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(defaultinterrupt.o)
+
+.debug
+ *.elf(.debug)
+ *(.debug)
+
+.line
+ *.elf(.line)
+ *(.line)
+
+.debug_srcinfo
+ *.elf(.debug_srcinfo)
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *.elf(.debug_sfnames)
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x588
+ *.elf(.debug_aranges)
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x18 build/uart/production/hardware_initializers/pic32mm0256gpm064_explorer_16.o
+ .debug_aranges
+                0x00000018       0x20 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+ .debug_aranges
+                0x00000038       0x30 build/uart/production/main.o
+ .debug_aranges
+                0x00000068       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo)
+ .debug_aranges
+                0x00000088       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo)
+ .debug_aranges
+                0x000000a8       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOFlush.pic32mmo)
+ .debug_aranges
+                0x000000c8       0x48 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+ .debug_aranges
+                0x00000110       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+ .debug_aranges
+                0x00000130       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_IsPageErased.pic32mmo)
+ .debug_aranges
+                0x00000150       0x38 ezbl_integration/ezbl_lib32mm.a(EZBL_ExceptionMux.pic32mmo)
+ .debug_aranges
+                0x00000188       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_IntCtrl.pic32mmo)
+ .debug_aranges
+                0x000001a8       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_RX.pic32mmo)
+ .debug_aranges
+                0x000001c0       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_TX.pic32mmo)
+ .debug_aranges
+                0x000001d8       0x58 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .debug_aranges
+                0x00000230       0x18 ezbl_integration/ezbl_lib32mm.a(NOW_Fcy.pic32mmo)
+ .debug_aranges
+                0x00000248       0x18 ezbl_integration/ezbl_lib32mm.a(NOW_ms.pic32mmo)
+ .debug_aranges
+                0x00000260       0x18 ezbl_integration/ezbl_lib32mm.a(NOW_sec.pic32mmo)
+ .debug_aranges
+                0x00000278       0x18 ezbl_integration/ezbl_lib32mm.a(NOW_us.pic32mmo)
+ .debug_aranges
+                0x00000290       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_CalcUxBRGH.pic32mmo)
+ .debug_aranges
+                0x000002b0       0x28 ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+ .debug_aranges
+                0x000002d8       0x78 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .debug_aranges
+                0x00000350       0x38 ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+ .debug_aranges
+                0x00000388       0x28 ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+ .debug_aranges
+                0x000003b0       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOReset.pic32mmo)
+ .debug_aranges
+                0x000003d0       0x30 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+ .debug_aranges
+                0x00000400       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOWrite.pic32mmo)
+ .debug_aranges
+                0x00000420       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_CRC32.pic32mmo)
+ .debug_aranges
+                0x00000440       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCompare.pic32mmo)
+ .debug_aranges
+                0x00000460       0x28 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+ .debug_aranges
+                0x00000488       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_Map.pic32mmo)
+ .debug_aranges
+                0x000004a8       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_AddrInTable.pic32mmo)
+ .debug_aranges
+                0x000004c8       0x20 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/pic32_software_reset-mm.o
+ .debug_aranges
+                0x000004e8       0x20 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_aranges
+                0x00000508       0x20 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-reset.o)
+ .debug_aranges
+                0x00000528       0x20 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-bootstrap.o)
+ .debug_aranges
+                0x00000548       0x20 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-general-exception-handler.o)
+ .debug_aranges
+                0x00000568       0x20 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(defaultinterrupt.o)
+
+.debug_pubnames
+ *.elf(.debug_pubnames)
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xdac3
+ *.elf(.debug_info .gnu.linkonce.wi.*)
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0xf2 build/uart/production/hardware_initializers/pic32mm0256gpm064_explorer_16.o
+ .debug_info    0x000000f2     0x115d build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+ .debug_info    0x0000124f     0x144e build/uart/production/main.o
+ .debug_info    0x0000269d     0x19da ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo)
+ .debug_info    0x00004077      0x7db ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo)
+ .debug_info    0x00004852      0x29e ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOFlush.pic32mmo)
+ .debug_info    0x00004af0     0x1419 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+ .debug_info    0x00005f09      0x287 ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+ .debug_info    0x00006190      0x383 ezbl_integration/ezbl_lib32mm.a(EZBL_IsPageErased.pic32mmo)
+ .debug_info    0x00006513       0x5d ezbl_integration/ezbl_lib32mm.a(EZBL_ExceptionMux.pic32mmo)
+ .debug_info    0x00006570       0x5c ezbl_integration/ezbl_lib32mm.a(EZBL_IntCtrl.pic32mmo)
+ .debug_info    0x000065cc      0x2fd ezbl_integration/ezbl_lib32mm.a(EZBL_COM_RX.pic32mmo)
+ .debug_info    0x000068c9      0x2fd ezbl_integration/ezbl_lib32mm.a(EZBL_COM_TX.pic32mmo)
+ .debug_info    0x00006bc6     0x10d2 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .debug_info    0x00007c98       0xb7 ezbl_integration/ezbl_lib32mm.a(NOW_Fcy.pic32mmo)
+ .debug_info    0x00007d4f       0xb1 ezbl_integration/ezbl_lib32mm.a(NOW_ms.pic32mmo)
+ .debug_info    0x00007e00       0xae ezbl_integration/ezbl_lib32mm.a(NOW_sec.pic32mmo)
+ .debug_info    0x00007eae       0xb2 ezbl_integration/ezbl_lib32mm.a(NOW_us.pic32mmo)
+ .debug_info    0x00007f60      0x12f ezbl_integration/ezbl_lib32mm.a(EZBL_CalcUxBRGH.pic32mmo)
+ .debug_info    0x0000808f      0x580 ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+ .debug_info    0x0000860f     0x2649 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .debug_info    0x0000ac58      0x283 ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+ .debug_info    0x0000aedb      0xc43 ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+ .debug_info    0x0000bb1e      0x228 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOReset.pic32mmo)
+ .debug_info    0x0000bd46      0x548 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+ .debug_info    0x0000c28e      0xb9e ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOWrite.pic32mmo)
+ .debug_info    0x0000ce2c      0x15a ezbl_integration/ezbl_lib32mm.a(EZBL_CRC32.pic32mmo)
+ .debug_info    0x0000cf86      0x130 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCompare.pic32mmo)
+ .debug_info    0x0000d0b6      0x1da ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+ .debug_info    0x0000d290       0x58 ezbl_integration/ezbl_lib32mm.a(EZBL_Map.pic32mmo)
+ .debug_info    0x0000d2e8      0x25f ezbl_integration/ezbl_lib32mm.a(EZBL_AddrInTable.pic32mmo)
+ .debug_info    0x0000d547      0x10a /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/pic32_software_reset-mm.o
+ .debug_info    0x0000d651       0xf5 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_info    0x0000d746       0xce /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-reset.o)
+ .debug_info    0x0000d814       0xd6 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-bootstrap.o)
+ .debug_info    0x0000d8ea       0xf1 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-general-exception-handler.o)
+ .debug_info    0x0000d9db       0xe8 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(defaultinterrupt.o)
+
+.debug_abbrev   0x00000000     0x2422
+ *.elf(.debug_abbrev)
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x1b build/uart/production/hardware_initializers/pic32mm0256gpm064_explorer_16.o
+ .debug_abbrev  0x0000001b      0x1dc build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+ .debug_abbrev  0x000001f7      0x318 build/uart/production/main.o
+ .debug_abbrev  0x0000050f      0x327 ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo)
+ .debug_abbrev  0x00000836      0x16c ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo)
+ .debug_abbrev  0x000009a2       0xf7 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOFlush.pic32mmo)
+ .debug_abbrev  0x00000a99      0x330 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+ .debug_abbrev  0x00000dc9      0x108 ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+ .debug_abbrev  0x00000ed1       0xe7 ezbl_integration/ezbl_lib32mm.a(EZBL_IsPageErased.pic32mmo)
+ .debug_abbrev  0x00000fb8       0x12 ezbl_integration/ezbl_lib32mm.a(EZBL_ExceptionMux.pic32mmo)
+ .debug_abbrev  0x00000fca       0x14 ezbl_integration/ezbl_lib32mm.a(EZBL_IntCtrl.pic32mmo)
+ .debug_abbrev  0x00000fde       0xd0 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_RX.pic32mmo)
+ .debug_abbrev  0x000010ae       0xd0 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_TX.pic32mmo)
+ .debug_abbrev  0x0000117e      0x2f6 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .debug_abbrev  0x00001474       0x2c ezbl_integration/ezbl_lib32mm.a(NOW_Fcy.pic32mmo)
+ .debug_abbrev  0x000014a0       0x2c ezbl_integration/ezbl_lib32mm.a(NOW_ms.pic32mmo)
+ .debug_abbrev  0x000014cc       0x2c ezbl_integration/ezbl_lib32mm.a(NOW_sec.pic32mmo)
+ .debug_abbrev  0x000014f8       0x2c ezbl_integration/ezbl_lib32mm.a(NOW_us.pic32mmo)
+ .debug_abbrev  0x00001524       0x6a ezbl_integration/ezbl_lib32mm.a(EZBL_CalcUxBRGH.pic32mmo)
+ .debug_abbrev  0x0000158e      0x1da ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+ .debug_abbrev  0x00001768      0x2a5 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .debug_abbrev  0x00001a0d       0xcf ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+ .debug_abbrev  0x00001adc      0x1d9 ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+ .debug_abbrev  0x00001cb5       0xba ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOReset.pic32mmo)
+ .debug_abbrev  0x00001d6f      0x175 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+ .debug_abbrev  0x00001ee4      0x1bd ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOWrite.pic32mmo)
+ .debug_abbrev  0x000020a1       0x7f ezbl_integration/ezbl_lib32mm.a(EZBL_CRC32.pic32mmo)
+ .debug_abbrev  0x00002120       0x78 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCompare.pic32mmo)
+ .debug_abbrev  0x00002198       0xb7 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+ .debug_abbrev  0x0000224f       0x14 ezbl_integration/ezbl_lib32mm.a(EZBL_Map.pic32mmo)
+ .debug_abbrev  0x00002263       0xe3 ezbl_integration/ezbl_lib32mm.a(EZBL_AddrInTable.pic32mmo)
+ .debug_abbrev  0x00002346       0x14 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/pic32_software_reset-mm.o
+ .debug_abbrev  0x0000235a       0x28 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_abbrev  0x00002382       0x28 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-reset.o)
+ .debug_abbrev  0x000023aa       0x28 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-bootstrap.o)
+ .debug_abbrev  0x000023d2       0x28 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-general-exception-handler.o)
+ .debug_abbrev  0x000023fa       0x28 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(defaultinterrupt.o)
+
+.debug_line     0x00000000     0x195b
+ *.elf(.debug_line)
+ *(.debug_line)
+ .debug_line    0x00000000       0x1d build/uart/production/hardware_initializers/pic32mm0256gpm064_explorer_16.o
+ .debug_line    0x0000001d      0x169 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+ .debug_line    0x00000186      0x1af build/uart/production/main.o
+ .debug_line    0x00000335      0x204 ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo)
+ .debug_line    0x00000539       0x90 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo)
+ .debug_line    0x000005c9       0x74 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOFlush.pic32mmo)
+ .debug_line    0x0000063d      0x1ad ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+ .debug_line    0x000007ea       0x8b ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+ .debug_line    0x00000875       0x7f ezbl_integration/ezbl_lib32mm.a(EZBL_IsPageErased.pic32mmo)
+ .debug_line    0x000008f4       0x93 ezbl_integration/ezbl_lib32mm.a(EZBL_ExceptionMux.pic32mmo)
+ .debug_line    0x00000987       0x92 ezbl_integration/ezbl_lib32mm.a(EZBL_IntCtrl.pic32mmo)
+ .debug_line    0x00000a19       0x56 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_RX.pic32mmo)
+ .debug_line    0x00000a6f       0x56 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_TX.pic32mmo)
+ .debug_line    0x00000ac5      0x145 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .debug_line    0x00000c0a       0x52 ezbl_integration/ezbl_lib32mm.a(NOW_Fcy.pic32mmo)
+ .debug_line    0x00000c5c       0x51 ezbl_integration/ezbl_lib32mm.a(NOW_ms.pic32mmo)
+ .debug_line    0x00000cad       0x52 ezbl_integration/ezbl_lib32mm.a(NOW_sec.pic32mmo)
+ .debug_line    0x00000cff       0x51 ezbl_integration/ezbl_lib32mm.a(NOW_us.pic32mmo)
+ .debug_line    0x00000d50       0x71 ezbl_integration/ezbl_lib32mm.a(EZBL_CalcUxBRGH.pic32mmo)
+ .debug_line    0x00000dc1       0x8b ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+ .debug_line    0x00000e4c      0x203 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .debug_line    0x0000104f       0x9e ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+ .debug_line    0x000010ed       0xb4 ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+ .debug_line    0x000011a1       0x6d ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOReset.pic32mmo)
+ .debug_line    0x0000120e       0x9f ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+ .debug_line    0x000012ad       0x99 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOWrite.pic32mmo)
+ .debug_line    0x00001346       0x73 ezbl_integration/ezbl_lib32mm.a(EZBL_CRC32.pic32mmo)
+ .debug_line    0x000013b9       0x69 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCompare.pic32mmo)
+ .debug_line    0x00001422       0x80 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+ .debug_line    0x000014a2       0x73 ezbl_integration/ezbl_lib32mm.a(EZBL_Map.pic32mmo)
+ .debug_line    0x00001515       0x71 ezbl_integration/ezbl_lib32mm.a(EZBL_AddrInTable.pic32mmo)
+ .debug_line    0x00001586       0xb7 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/pic32_software_reset-mm.o
+ .debug_line    0x0000163d       0xa7 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_line    0x000016e4       0x94 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-reset.o)
+ .debug_line    0x00001778       0x98 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-bootstrap.o)
+ .debug_line    0x00001810       0xa5 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-general-exception-handler.o)
+ .debug_line    0x000018b5       0xa6 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(defaultinterrupt.o)
+
+.debug_frame    0x00000000      0x760
+ *.elf(.debug_frame)
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x28 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+ .debug_frame   0x00000028       0x68 build/uart/production/main.o
+ .debug_frame   0x00000090       0x3c ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo)
+ .debug_frame   0x000000cc       0x2c ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo)
+ .debug_frame   0x000000f8       0x28 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOFlush.pic32mmo)
+ .debug_frame   0x00000120       0xf0 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+ .debug_frame   0x00000210       0x28 ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+ .debug_frame   0x00000238       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_IsPageErased.pic32mmo)
+ .debug_frame   0x00000258       0xa4 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .debug_frame   0x000002fc       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_CalcUxBRGH.pic32mmo)
+ .debug_frame   0x0000031c       0x40 ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+ .debug_frame   0x0000035c      0x180 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .debug_frame   0x000004dc       0x58 ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+ .debug_frame   0x00000534       0x38 ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+ .debug_frame   0x0000056c       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOReset.pic32mmo)
+ .debug_frame   0x0000058c       0x54 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+ .debug_frame   0x000005e0       0x30 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOWrite.pic32mmo)
+ .debug_frame   0x00000610       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_CRC32.pic32mmo)
+ .debug_frame   0x00000630       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCompare.pic32mmo)
+ .debug_frame   0x00000650       0x38 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+ .debug_frame   0x00000688       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_AddrInTable.pic32mmo)
+ .debug_frame   0x000006a8       0x2c /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_frame   0x000006d4       0x20 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-reset.o)
+ .debug_frame   0x000006f4       0x20 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-bootstrap.o)
+ .debug_frame   0x00000714       0x2c /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-general-exception-handler.o)
+ .debug_frame   0x00000740       0x20 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(defaultinterrupt.o)
+
+.debug_str      0x00000000      0x164
+ *.elf(.debug_str)
+ *(.debug_str)
+ .debug_str     0x00000000        0x0 build/uart/production/hardware_initializers/pic32mm0256gpm064_explorer_16.o
+ .debug_str     0x00000000        0xa build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+ .debug_str     0x0000000a       0x14 build/uart/production/main.o
+ .debug_str     0x0000001e       0x28 ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo)
+ .debug_str     0x00000046        0xa ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo)
+ .debug_str     0x00000050        0xa ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOFlush.pic32mmo)
+ .debug_str     0x0000005a       0x60 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+ .debug_str     0x000000ba        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+ .debug_str     0x000000ba        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_IsPageErased.pic32mmo)
+ .debug_str     0x000000ba        0xa ezbl_integration/ezbl_lib32mm.a(EZBL_COM_RX.pic32mmo)
+ .debug_str     0x000000c4        0xa ezbl_integration/ezbl_lib32mm.a(EZBL_COM_TX.pic32mmo)
+ .debug_str     0x000000ce       0x14 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .debug_str     0x000000e2        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_Fcy.pic32mmo)
+ .debug_str     0x000000e2        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_ms.pic32mmo)
+ .debug_str     0x000000e2        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_sec.pic32mmo)
+ .debug_str     0x000000e2        0x0 ezbl_integration/ezbl_lib32mm.a(NOW_us.pic32mmo)
+ .debug_str     0x000000e2        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_CalcUxBRGH.pic32mmo)
+ .debug_str     0x000000e2        0xa ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+ .debug_str     0x000000ec       0x14 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .debug_str     0x00000100        0x0 ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+ .debug_str     0x00000100       0x17 ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+ .debug_str     0x00000117       0x29 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOReset.pic32mmo)
+ .debug_str     0x00000140       0x1a ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+ .debug_str     0x0000015a        0xa ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOWrite.pic32mmo)
+ .debug_str     0x00000164        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_CRC32.pic32mmo)
+ .debug_str     0x00000164        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCompare.pic32mmo)
+ .debug_str     0x00000164        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+ .debug_str     0x00000164        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_AddrInTable.pic32mmo)
+ .debug_str     0x00000164        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_str     0x00000164        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-reset.o)
+ .debug_str     0x00000164        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-bootstrap.o)
+ .debug_str     0x00000164        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-general-exception-handler.o)
+ .debug_str     0x00000164        0x0 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(defaultinterrupt.o)
+
+.debug_loc      0x00000000     0x2461
+ *.elf(.debug_loc)
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x14 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+ .debug_loc     0x00000014      0x18d build/uart/production/main.o
+ .debug_loc     0x000001a1      0x413 ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo)
+ .debug_loc     0x000005b4      0x105 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo)
+ .debug_loc     0x000006b9       0x9c ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOFlush.pic32mmo)
+ .debug_loc     0x00000755      0x9df ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+ .debug_loc     0x00001134       0xb1 ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+ .debug_loc     0x000011e5       0xa8 ezbl_integration/ezbl_lib32mm.a(EZBL_IsPageErased.pic32mmo)
+ .debug_loc     0x0000128d       0xd4 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .debug_loc     0x00001361       0x6b ezbl_integration/ezbl_lib32mm.a(EZBL_CalcUxBRGH.pic32mmo)
+ .debug_loc     0x000013cc       0xa8 ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+ .debug_loc     0x00001474      0x34c ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .debug_loc     0x000017c0       0x84 ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+ .debug_loc     0x00001844      0x1bd ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+ .debug_loc     0x00001a01      0x37d ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+ .debug_loc     0x00001d7e      0x1ed ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOWrite.pic32mmo)
+ .debug_loc     0x00001f6b      0x120 ezbl_integration/ezbl_lib32mm.a(EZBL_CRC32.pic32mmo)
+ .debug_loc     0x0000208b      0x113 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCompare.pic32mmo)
+ .debug_loc     0x0000219e      0x1e5 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+ .debug_loc     0x00002383       0x86 ezbl_integration/ezbl_lib32mm.a(EZBL_AddrInTable.pic32mmo)
+ .debug_loc     0x00002409       0x2c /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_loc     0x00002435       0x2c /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-general-exception-handler.o)
+
+.debug_macinfo
+ *.elf(.debug_macinfo)
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *.elf(.debug_weaknames)
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *.elf(.debug_funcnames)
+ *(.debug_funcnames)
+
+.debug_typenames
+ *.elf(.debug_typenames)
+ *(.debug_typenames)
+
+.debug_varnames
+ *.elf(.debug_varnames)
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *.elf(.debug_pubtypes)
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x338
+ *.elf(.debug_ranges)
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x10 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+ .debug_ranges  0x00000010       0x68 build/uart/production/main.o
+ .debug_ranges  0x00000078       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo)
+ .debug_ranges  0x00000088       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo)
+ .debug_ranges  0x00000098       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOFlush.pic32mmo)
+ .debug_ranges  0x000000a8       0x50 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+ .debug_ranges  0x000000f8       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+ .debug_ranges  0x00000108       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_IsPageErased.pic32mmo)
+ .debug_ranges  0x00000118       0x30 ezbl_integration/ezbl_lib32mm.a(EZBL_ExceptionMux.pic32mmo)
+ .debug_ranges  0x00000148       0x48 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .debug_ranges  0x00000190       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_CalcUxBRGH.pic32mmo)
+ .debug_ranges  0x000001a0       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+ .debug_ranges  0x000001b8       0x68 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .debug_ranges  0x00000220       0x28 ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+ .debug_ranges  0x00000248       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+ .debug_ranges  0x00000260       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOReset.pic32mmo)
+ .debug_ranges  0x00000270       0x20 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+ .debug_ranges  0x00000290       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOWrite.pic32mmo)
+ .debug_ranges  0x000002a0       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_CRC32.pic32mmo)
+ .debug_ranges  0x000002b0       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCompare.pic32mmo)
+ .debug_ranges  0x000002c0       0x18 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+ .debug_ranges  0x000002d8       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_AddrInTable.pic32mmo)
+ .debug_ranges  0x000002e8       0x10 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_ranges  0x000002f8       0x10 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-reset.o)
+ .debug_ranges  0x00000308       0x10 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-bootstrap.o)
+ .debug_ranges  0x00000318       0x10 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-general-exception-handler.o)
+ .debug_ranges  0x00000328       0x10 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(defaultinterrupt.o)
+
+.gnu.attributes
+                0x00000000       0x10
+ *(.gnu.attributes)
+ .gnu.attributes
+                0x00000000       0x10 build/uart/production/hardware_initializers/pic32mm0256gpm064_explorer_16.o
+ .gnu.attributes
+                0x00000010       0x10 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+ .gnu.attributes
+                0x00000020       0x10 build/uart/production/main.o
+ .gnu.attributes
+                0x00000030       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo)
+ .gnu.attributes
+                0x00000040       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo)
+ .gnu.attributes
+                0x00000050       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOFlush.pic32mmo)
+ .gnu.attributes
+                0x00000060       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+ .gnu.attributes
+                0x00000070       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+ .gnu.attributes
+                0x00000080       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_IsPageErased.pic32mmo)
+ .gnu.attributes
+                0x00000090       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_RX.pic32mmo)
+ .gnu.attributes
+                0x000000a0       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_COM_TX.pic32mmo)
+ .gnu.attributes
+                0x000000b0       0x10 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+ .gnu.attributes
+                0x000000c0       0x10 ezbl_integration/ezbl_lib32mm.a(NOW_Fcy.pic32mmo)
+ .gnu.attributes
+                0x000000d0       0x10 ezbl_integration/ezbl_lib32mm.a(NOW_ms.pic32mmo)
+ .gnu.attributes
+                0x000000e0       0x10 ezbl_integration/ezbl_lib32mm.a(NOW_sec.pic32mmo)
+ .gnu.attributes
+                0x000000f0       0x10 ezbl_integration/ezbl_lib32mm.a(NOW_us.pic32mmo)
+ .gnu.attributes
+                0x00000100       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_CalcUxBRGH.pic32mmo)
+ .gnu.attributes
+                0x00000110       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+ .gnu.attributes
+                0x00000120       0x10 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+ .gnu.attributes
+                0x00000130       0x10 ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+ .gnu.attributes
+                0x00000140       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+ .gnu.attributes
+                0x00000150       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOReset.pic32mmo)
+ .gnu.attributes
+                0x00000160       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+ .gnu.attributes
+                0x00000170       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOWrite.pic32mmo)
+ .gnu.attributes
+                0x00000180       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_CRC32.pic32mmo)
+ .gnu.attributes
+                0x00000190       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCompare.pic32mmo)
+ .gnu.attributes
+                0x000001a0       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+ .gnu.attributes
+                0x000001b0       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_AddrInTable.pic32mmo)
+ .gnu.attributes
+                0x000001c0       0x10 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-bootstrap-exception-handler.o)
+ .gnu.attributes
+                0x000001d0       0x10 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-reset.o)
+ .gnu.attributes
+                0x000001e0       0x10 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-bootstrap.o)
+ .gnu.attributes
+                0x000001f0       0x10 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-general-exception-handler.o)
+ .gnu.attributes
+                0x00000200       0x10 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(defaultinterrupt.o)
+                0x00000c00                _min_stack_size = 0xc00
+LOAD /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/default_isr_vectors.o
+LOAD /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/pic32_software_reset-mm.o
+LOAD /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/micromips/libgcc.a
+START GROUP
+LOAD /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a
+LOAD /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libdebug.a
+LOAD /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a
+LOAD /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/liblega-c.a
+LOAD /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libm.a
+LOAD /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libe.a
+LOAD /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libdsp.a
+LOAD /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/micromips/libgcc.a
+LOAD /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a
+END GROUP
+LOAD /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/micromips/libgcc.a
+OUTPUT(dist/uart/production/w-bt_boot.X.production.elf elf32-tradlittlemips)
+LOAD stack
+LOAD data_init
+
+.reginfo        0x00000000       0x18
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/crt0_micromips.o
+
+.debug.EZBL_dummy
+                0x00000000        0x0
+ .debug.EZBL_dummy
+                0x00000000        0x0 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+
+.info.EZBL_KeepSYM
+                0x00000000       0x10
+ .info.EZBL_KeepSYM
+                0x00000000       0x10 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+
+.stack          0x80000380      0xc00
+ .stack         0x80000380      0xc00 stack
+
+.COHERENTPERSIST$
+                0xa0000310       0x34
+ .COHERENTPERSIST$
+                0xa0000310       0x30 build/uart/production/main.o
+                0xa0000310                EZBL_bootCtx
+ .bss.EZBL_COMBootIF.EZBL_COMBootIF
+                0xa0000340        0x4 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+                0xa0000340                EZBL_COMBootIF
+
+.EZBL_ISRPointers
+                0x00000000        0x0
+ .EZBL_ISRPointers
+                0x00000000        0x0 ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+
+.EZBL_VectorDispatch0000
+                0xbfc00000       0x2a
+ .EZBL_VectorDispatch0000
+                0xbfc00000       0x2a ezbl_integration/ezbl_lib32mm.a(EZBL_ExceptionMux.pic32mmo)
+                0xbfc00001                EZBL_VectorDispatch0000
+
+.EZBL_VectorDispatch0380
+                0xbfc00380       0x14
+ .EZBL_VectorDispatch0380
+                0xbfc00380       0x14 ezbl_integration/ezbl_lib32mm.a(EZBL_ExceptionMux.pic32mmo)
+                0xbfc00381                EZBL_VectorDispatch0380
+
+.EZBL_VectorDispatch0400
+                0xbfc00400       0x14
+ .EZBL_VectorDispatch0400
+                0xbfc00400       0x14 ezbl_integration/ezbl_lib32mm.a(EZBL_ExceptionMux.pic32mmo)
+                0xbfc00401                EZBL_VectorDispatch0400
+
+.EZBL_VectorDispatch0480
+                0xbfc00480       0x14
+ .EZBL_VectorDispatch0480
+                0xbfc00480       0x14 ezbl_integration/ezbl_lib32mm.a(EZBL_ExceptionMux.pic32mmo)
+                0xbfc00481                EZBL_VectorDispatch0480
+
+.text.EZBL_Install2Flash
+                0x9d0009cc      0x708
+ .text.EZBL_Install2Flash
+                0x9d0009cc      0x708 ezbl_integration/ezbl_lib32mm.a(EZBL_Install2Flash.pic32mmo)
+                0x9d0009cd                EZBL_Install2Flash
+
+.text.InitializeBoard
+                0x9d000358      0x1ac
+ .text.InitializeBoard
+                0x9d000358      0x1ac build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+                0x9d000359                InitializeBoard
+
+.text.EZBL_BootloaderTask
+                0x9d000504      0x148
+ .text.EZBL_BootloaderTask
+                0x9d000504      0x148 build/uart/production/main.o
+                0x9d000505                EZBL_BootloaderTask
+
+.text.ResetBRG  0x9d00018c      0x128
+ .text.ResetBRG
+                0x9d00018c      0x128 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+                0x9d00018d                UART1_ResetBRG
+
+.text.RXInterruptFunc
+                0x9d00064c      0x120
+ .text.RXInterruptFunc
+                0x9d00064c      0x120 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+                0x9d00064d                UART1_RXInterruptFunc
+
+.text.EZBL_ErasePage
+                0x9d000030      0x10e
+ .text.EZBL_ErasePage
+                0x9d000030      0x10e ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+                0x9d000031                EZBL_ErasePage
+
+.text.EZBL_FIFOSetBaud
+                0x9d0010d4       0xde
+ .text.EZBL_FIFOSetBaud
+                0x9d0010d4       0xde ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOSetBaud.pic32mmo)
+                0x9d0010d5                EZBL_FIFOSetBaud
+
+.text.RXTXInterrupt
+                0x9d0011b2       0xdc
+ .text.RXTXInterrupt
+                0x9d0011b2       0xdc ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+                0x9d0011b3                UART1_RXTXInterrupt
+
+.text.TX_FIFO_OnWrite
+                0x9d00128e       0xc6
+ .text.TX_FIFO_OnWrite
+                0x9d00128e       0xc6 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+                0x9d00128f                UART1_TX_FIFO_OnWrite
+
+.text.EZBL_IntCtrl
+                0x9d001354       0xbc
+ .text.EZBL_IntCtrl
+                0x9d001354       0xbc ezbl_integration/ezbl_lib32mm.a(EZBL_IntCtrl.pic32mmo)
+                0x9d001355                EZBL_RdIntFlag
+                0x9d001359                EZBL_InvIntFlag
+                0x9d00135d                EZBL_ClrIntFlag
+                0x9d00135f                EZBL_WrIntFlag
+                0x9d001363                EZBL_SetIntFlag
+                0x9d00138b                EZBL_RdIntEn
+                0x9d00138f                EZBL_InvIntEn
+                0x9d001393                EZBL_ClrIntEn
+                0x9d001395                EZBL_WrIntEn
+                0x9d001399                EZBL_SetIntEn
+                0x9d0013a5                EZBL_RdIntPri
+                0x9d0013a9                EZBL_WrIntPri
+                0x9d0013cd                EZBL_FIFOGetIntPri
+                0x9d0013d1                EZBL_FIFOSetIntPri
+                0x9d0013dd                EZBL_FIFOGetInt
+                0x9d0013e1                EZBL_FIFOIntClear
+                0x9d0013e3                EZBL_FIFOIntFlagSet
+                0x9d0013e7                EZBL_FIFOIntRaise
+                0x9d0013fb                EZBL_FIFOGetIntEn
+                0x9d0013ff                EZBL_FIFOIntDisable
+                0x9d001401                EZBL_FIFOIntEnableSet
+                0x9d001405                EZBL_FIFOIntEnable
+
+.text.EZBL_FIFOReadOrPeek
+                0x9d001410       0xa2
+ .text.EZBL_FIFOReadOrPeek
+                0x9d001410       0xa2 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+
+.text.EZBL_EraseAppSpace
+                0x9d00076c       0x8e
+ .text.EZBL_EraseAppSpace
+                0x9d00076c       0x8e ezbl_integration/ezbl_lib32mm.a(EZBL_EraseAppSpace.pic32mmo)
+                0x9d00076d                EZBL_EraseAppSpace
+
+.text.EZBL_RestoreAppErasableInRAMPage
+                0x9d0014b2       0x8c
+ .text.EZBL_RestoreAppErasableInRAMPage
+                0x9d0014b2       0x8c ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+                0x9d0014b3                EZBL_RestoreAppErasableInRAMPage
+
+.text.RX_FIFO_OnRead
+                0x9d00153e       0x8c
+ .text.RX_FIFO_OnRead
+                0x9d00153e       0x8c ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+                0x9d00153f                UART1_RX_FIFO_OnRead
+
+.text.TXInterruptFunc
+                0x9d0015ca       0x8c
+ .text.TXInterruptFunc
+                0x9d0015ca       0x8c ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+                0x9d0015cb                UART1_TXInterruptFunc
+
+.text.TX_FIFO_Flush
+                0x9d001656       0x8a
+ .text.TX_FIFO_Flush
+                0x9d001656       0x8a ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+                0x9d001657                UART1_TX_FIFO_Flush
+
+.text.EZBL_VerifyROM
+                0x9d0016e0       0x86
+ .text.EZBL_VerifyROM
+                0x9d0016e0       0x86 ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+                0x9d0016e1                EZBL_VerifyROM
+
+.text.EZBL_FIFOWrite
+                0x9d001766       0x84
+ .text.EZBL_FIFOWrite
+                0x9d001766       0x84 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOWrite.pic32mmo)
+                0x9d001767                EZBL_FIFOWrite
+
+.text.general_exception
+                0x9d0017ea       0x80
+ .text.general_exception
+                0x9d0017ea       0x80 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(general-exception.o)
+                0x9d0017eb                _general_exception_context
+
+.text.EZBL_Map  0x9d00186a       0x76
+ .text.EZBL_Map
+                0x9d00186a       0x76 ezbl_integration/ezbl_lib32mm.a(EZBL_Map.pic32mmo)
+                0x9d00186b                EZBL_MapWriteEx
+                0x9d00186f                EZBL_MapWrite
+                0x9d001873                EZBL_MapClrEx
+                0x9d001877                EZBL_MapClr
+                0x9d00187b                EZBL_MapSetEx
+                0x9d00187f                EZBL_MapSet
+                0x9d001883                EZBL_MapInvEx
+                0x9d001887                EZBL_MapInv
+
+.text.main      0x9d0018e0       0x74
+ .text.main     0x9d0018e0       0x74 build/uart/production/main.o
+                0x9d0018e1                main
+
+.text.EZBL_ForwardIRQ
+                0x9d001954       0x64
+ .text.EZBL_ForwardIRQ
+                0x9d001954       0x64 ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+                0x9d001955                EZBL_ForwardIRQ
+
+.text.EZBL_FIFOFlush
+                0x9d0019b8       0x58
+ .text.EZBL_FIFOFlush
+                0x9d0019b8       0x58 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOFlush.pic32mmo)
+                0x9d0019b9                EZBL_FIFOFlush
+
+.text.main_entry
+                0x9d001a10       0x44
+ .text.main_entry
+                0x9d001a10       0x44 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MM0064GPL028/crt0_micromips.o
+                0x9d001a3b                __crt0_exit
+
+.text.EZBL_RAMCopy
+                0x9d001a54       0x44
+ .text.EZBL_RAMCopy
+                0x9d001a54       0x44 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+                0x9d001a55                EZBL_RAMCopy
+
+.rodata         0x9d001aa0       0x40
+ .rodata        0x9d001aa0       0x40 build/uart/production/hardware_initializers/pic32mm0064gpl036_explorer_16.o
+                0x9d001aa0                EZBL_LEDMap
+                0x9d001ad0                EZBL_ButtonMap
+                0x9d001adc                EZBL_COMBaud
+
+.text.EZBL_ForwardAllIRQ
+                0x9d001ae0       0x40
+ .text.EZBL_ForwardAllIRQ
+                0x9d001ae0       0x40 ezbl_integration/ezbl_lib32mm.a(EZBL_ForwardIRQ.pic32mmo)
+                0x9d001ae1                EZBL_ForwardAllIRQ
+
+.text           0x9d001b20       0x40
+ .text          0x9d001b20       0x40 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/pic32_software_reset-mm.o
+                0x9d001b21                __pic32_software_reset
+
+.dinit          0x9d001b60       0x40
+ .dinit         0x9d001b60       0x40 data_init
+
+.text.EZBL_IsPageErased
+                0x9d001ba0       0x3e
+ .text.EZBL_IsPageErased
+                0x9d001ba0       0x3e ezbl_integration/ezbl_lib32mm.a(EZBL_IsPageErased.pic32mmo)
+                0x9d001ba1                EZBL_IsPageErased
+
+.text.EZBL_PreInstall
+                0x9d001be0       0x34
+ .text.EZBL_PreInstall
+                0x9d001be0       0x34 build/uart/production/main.o
+                0x9d001be1                EZBL_PreInstall
+
+.text._bootstrap_exception_handler
+                0x9d001c14       0x34
+ .text._bootstrap_exception_handler
+                0x9d001c14       0x34 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-bootstrap-exception-handler.o)
+                0x9d001c15                _bootstrap_exception_handler
+
+.text._general_exception_handler
+                0x9d001c48       0x34
+ .text._general_exception_handler
+                0x9d001c48       0x34 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-general-exception-handler.o)
+                0x9d001c49                _general_exception_handler
+
+.text.EZBL_CRC32
+                0x9d001c7c       0x32
+ .text.EZBL_CRC32
+                0x9d001c7c       0x32 ezbl_integration/ezbl_lib32mm.a(EZBL_CRC32.pic32mmo)
+                0x9d001c7d                EZBL_CRC32
+
+.text.EZBL_AddrInTable
+                0x9d001cae       0x30
+ .text.EZBL_AddrInTable
+                0x9d001cae       0x30 ezbl_integration/ezbl_lib32mm.a(EZBL_AddrInTable.pic32mmo)
+                0x9d001caf                EZBL_AddrInTable
+
+.vector_default
+                0x9d001ce0       0x30
+ .vector_default
+                0x9d001ce0       0x30 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(defaultinterrupt.o)
+                0x9d001ce1                _DefaultInterrupt
+
+.text._mon_putc
+                0x9d001d10       0x2c
+ .text._mon_putc
+                0x9d001d10       0x2c ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+                0x9d001d11                EZBL_mon_putc
+                0x9d001d11                _mon_putc
+
+.text.EZBL_CalcUxBRGH
+                0x9d001d3c       0x2a
+ .text.EZBL_CalcUxBRGH
+                0x9d001d3c       0x2a ezbl_integration/ezbl_lib32mm.a(EZBL_CalcUxBRGH.pic32mmo)
+                0x9d001d3d                EZBL_CalcUxBRGH
+
+.text._mon_getc
+                0x9d001d66       0x26
+ .text._mon_getc
+                0x9d001d66       0x26 ezbl_integration/ezbl_lib32mm.a(EZBL_STDIO.pic32mmo)
+                0x9d001d67                EZBL_mon_getc
+                0x9d001d67                _mon_getc
+
+.text.NOW_Wait  0x9d001d8c       0x22
+ .text.NOW_Wait
+                0x9d001d8c       0x22 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+                0x9d001d8d                NOW_Wait
+
+.text.NOW_64    0x9d001dae       0x20
+ .text.NOW_64   0x9d001dae       0x20 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+                0x9d001daf                NOW_32
+                0x9d001daf                NOW_64
+
+.text.EZBL_RAMCompare
+                0x9d001dce       0x1e
+ .text.EZBL_RAMCompare
+                0x9d001dce       0x1e ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCompare.pic32mmo)
+                0x9d001dcf                EZBL_RAMCompare
+
+.text.NOW_CORETMR_ResetConst
+                0x9d000000       0x18
+ .text.NOW_CORETMR_ResetConst
+                0x9d000000       0x18 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+                0x9d000001                NOW_CORETMR_ResetConst
+
+.text.LEDOff    0x9d000168       0x18
+ .text.LEDOff   0x9d000168       0x18 ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+                0x9d000169                LEDOff
+
+.text           0x9d001dec       0x18
+ .text          0x9d001dec       0x18 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-nmi-handler.o)
+                0x9d001ded                _nmi_handler
+
+.text.EZBL_FIFOReset
+                0x9d00014c       0x14
+ .text.EZBL_FIFOReset
+                0x9d00014c       0x14 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFOReset.pic32mmo)
+                0x9d00014d                EZBL_FIFOReset
+
+.text.EZBL_RAMCopyEx
+                0x9d001e04       0x14
+ .text.EZBL_RAMCopyEx
+                0x9d001e04       0x14 ezbl_integration/ezbl_lib32mm.a(EZBL_RAMCopy.pic32mmo)
+                0x9d001e05                EZBL_RAMCopyEx
+
+.text.EZBL_bootIDHash
+                0x9d001e18       0x10
+ .text.EZBL_bootIDHash
+                0x9d001e18       0x10 ezbl_integration/ezbl_lib32mm.a(EZBL_bootIDHash.pic32mmo)
+                0x9d001e18                EZBL_bootIDHash0
+                0x9d001e18                EZBL_bootIDHash
+                0x9d001e1c                EZBL_bootIDHash1
+                0x9d001e20                EZBL_bootIDHash2
+                0x9d001e24                EZBL_bootIDHash3
+
+.text.LEDToggle
+                0x9d001e28        0xc
+ .text.LEDToggle
+                0x9d001e28        0xc ezbl_integration/ezbl_lib32mm.a(LEDOnOffToggle.pic32mmo)
+                0x9d001e29                LEDToggle
+
+.text.EZBL_WriteROMEx
+                0x9d001e34        0xa
+ .text.EZBL_WriteROMEx
+                0x9d001e34        0xa ezbl_integration/ezbl_lib32mm.a(EZBL_WriteROMEx.pic32mmo)
+                0x9d001e35                EZBL_WriteROMEx
+
+.rodata         0x9d001a98        0x8
+ .rodata        0x9d001a98        0x8 ezbl_integration/ezbl_lib32mm.a(uart1_fifo.pic32mmo)
+                0x9d001a98                EZBL_bootloaderWakeKey
+
+.text.EZBL_FIFORead
+                0x9d0007fa        0x6
+ .text.EZBL_FIFORead
+                0x9d0007fa        0x6 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+                0x9d0007fb                EZBL_FIFORead
+
+.text.EZBL_FIFOPeek
+                0x9d001e3e        0x6
+ .text.EZBL_FIFOPeek
+                0x9d001e3e        0x6 ezbl_integration/ezbl_lib32mm.a(EZBL_FIFORead.pic32mmo)
+                0x9d001e3f                EZBL_FIFOPeek
+
+.text.NOW_IntEnable
+                0x9d0002b4        0x4
+ .text.NOW_IntEnable
+                0x9d0002b4        0x4 ezbl_integration/ezbl_lib32mm.a(NOW_CORETMR_Reset.pic32mmo)
+                0x9d0002b5                NOW_EnableInterrupts
+                0x9d0002b5                NOW_IntEnable
+
+.text._on_reset
+                0x9d001e44        0x4
+ .text._on_reset
+                0x9d001e44        0x4 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-reset.o)
+                0x9d001e45                _on_reset
+
+.text._on_bootstrap
+                0x9d001e48        0x4
+ .text._on_bootstrap
+                0x9d001e48        0x4 /opt/microchip/xc32/v1.44/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/micromips/libpic32.a(default-on-bootstrap.o)
+                0x9d001e49                _on_bootstrap
