@@ -25,7 +25,7 @@ BOOTID_OTHER  = "PIC32MM"
 # destination to have a backup if the Clean command is issued or the project
 # dist folder is deleted.
 appMergeDestFolders = ${thisMakefileDir}                        \
-                      ../w-bt_app/ezbl_integration
+                      ../w-bt_app.X/ezbl_integration
 
 
 

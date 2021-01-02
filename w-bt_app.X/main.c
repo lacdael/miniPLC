@@ -40,12 +40,12 @@
   MICROCHIP PROVIDES THIS SOFTWARE CONDITIONALLY UPON YOUR ACCEPTANCE OF THESE
   TERMS.
 *******************************************************************************/
-
 #include <xc.h>
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
 #include "ezbl_integration/ezbl.h"
+#include "../C/app.h"
 
 // Optional App defined Bootloader callback to reject or accept w/safe App shutdown in response to a background external firmware update offer
 int EZBL_BootloadRequest(EZBL_FIFO *rxFromRemote, EZBL_FIFO *txToRemote, unsigned long fileSize, EZBL_APPID_VER *appIDVer);
@@ -59,48 +59,18 @@ int EZBL_BootloadRequest(EZBL_FIFO *rxFromRemote, EZBL_FIFO *txToRemote, unsigne
    unsigned long ADC7 = 0;
    unsigned long ADC8 = 0;
  
-   int doADC();
    bool prefix(const char *pre, const char *str);
 
 bool prefix(const char *pre, const char *str)
 {
     return strncmp(pre, str, strlen(pre)) == 0;
 }
-
-   
-   int doADC(){
-    while (IFS0bits.AD1IF == 0);
-    IFS0CLR = _IFS0_AD1IF_MASK;
-    //  NAME   |   PIC      
-    //  --------------------
-    //  A1     |   RA3/AN6  
-    //  A2     |   RA2/AN5    
-    //  A3     |   RB3/AN11   
-    //  A4     |   RB2/AN4    
-    //  A5     |   RA1/AN1    
-    //  A6     |   RA0/AN0    
-    //  A7     |   RB13/AN8 
-    //  A8     |   RB12/AN7 
-    
-    // Get ADC values
-    ADC1 = ADC1BUF0;
-    ADC2 = ADC1BUF1;
-    ADC3 = ADC1BUF2; 
-    ADC4 = ADC1BUF3; 
-    ADC5 = ADC1BUF4; 
-    ADC6 = ADC1BUF5; 
-    ADC7 = ADC1BUF6; 
-    ADC8 = ADC1BUF7;
-   
-   return 0;
-   }   
     
 int main(void)
 {
     
     unsigned long tickTimer;
     unsigned long commTimeout;
-    unsigned long i = 0;
     // Connect Bootloader's EZBL_AppPreInstall function pointer to our
     // EZBL_BootloadRequest function. If you delete this line, the Bootloader
     // will decide how to handle background Bootload requests (default: kill App
@@ -115,6 +85,7 @@ int main(void)
 
     // XC32 initializer disables global interrupts, so explicitly restore them
     __builtin_enable_interrupts();
+    
 
 
 //    // Optionally let the world know that we are not a brick! Whoohoo!
@@ -125,8 +96,9 @@ int main(void)
     tickTimer = NOW_32();
     commTimeout = NOW_32();
     
-    char rx[32]; 
-    char tx[32];
+    char rx[BUFFER_SIZE]; 
+    char tx[BUFFER_SIZE];
+    
     int count = 0;
         
     
@@ -150,7 +122,9 @@ int main(void)
             if (count > 0 ) commTimeout = NOW_32();
         } else if (count > 0){
             if (NOW_32() - commTimeout > NOW_sec/10u){
-                //TODO: handle command
+                //TODO: 
+                
+                
                 EZBL_FIFOWrite(EZBL_STDOUT,rx,count);
                 EZBL_FIFOFlush(EZBL_STDOUT,10);
                 count = 0 ;
@@ -159,20 +133,10 @@ int main(void)
             }
         }
         
-        if(NOW_32() - tickTimer > NOW_sec)
+        if(NOW_32() - tickTimer > NOW_sec/5u)
         {
-            //TODO: Evaluate logic
-            doADC();
-            i++;
-            tickTimer += NOW_sec;
-             LEDToggle(0b00000001);            // Toggles an LED pin according to EZBL_DefineLEDMap() in hardware initializer
-        LEDToggle(0b00000010);
-        LEDToggle(0b00000100);
-        LEDToggle(0b00001000);
-        LEDToggle(0b00010000);
-        LEDToggle(0b00100000);
-        LEDToggle(0b01000000);
-        LEDToggle(0b10000000);
+            //app_task();
+            //TODO: make a printf macro in device.c
             EZBL_FIFOWrite(EZBL_STDOUT,tx,sprintf(tx,"TICK %8lu %8lu %8lu %8lu %8lu %8lu %8lu %8lu\n",ADC1,ADC2,ADC3,ADC4,ADC5,ADC6,ADC7,ADC8));
             EZBL_FIFOFlush(EZBL_STDOUT,10);
             //EZBL_FIFOWrite(EZBL_STDOUT,tx,sprintf(tx,"ADC1: %8d; ADC2: %8d; ADC3: %8d; ADC4: %8d; ADC5: %8d; ADC6: %8d; ADC7: %8d; ADC8: %8d;\n",ADC1,ADC2,ADC3,ADC4,ADC5,ADC6,ADC7,ADC8));

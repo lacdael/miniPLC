@@ -10,6 +10,7 @@
 /*RESERVED WORDS*/
 static const char SET[] = "SET";
 static const char NAME[] = "NAME";
+static const char TIMEOUT[] = "TIMEOUT";
 static const char LOGIC[] = "LOGIC";
 static const char DELETE[] = "DELETE";
 static const char ZERO[] = "ZERO";
@@ -44,10 +45,25 @@ static const char A5[] = "A5";
 static const char A6[] = "A6";
 static const char A7[] = "A7";
 static const char A8[] = "A8";
-static const char COM[] = "STR";
+static const char STR[] = "STR";
 static const char NONE[] = "NONE";
 static const char HELP[] = "HELP";
 //*RESERVED WORDS*//
+
+//*HELP*//
+static const char HELP_SET[] = "Set a port's state, or, do a calibration. `SET [O|A][1-8] = [1|0]|<number>` e.g. SET O1 = 1 e.g. SET A1 = 20.0\n";
+static const char HELP_NAME[] = "Set the bluetooth name. `NAME = <name>` e.g. NAME = myDevice\n";
+static const char HELP_TIMEOUT[] = "Set the timeout for clearing a string. `TIMEOUT = <seconds>` e.g. TIMEOUT = 5\n";
+static const char HELP_LOGIC[] = "Get the device's logic as a json array. `LOGIC`.\n";
+static const char HELP_DELETE[] = "Delete logic from the device. `DELETE <index>` e.g. DELETE 1.\n";
+static const char HELP_ZERO[] = "Zero an analogue port. `ZERO A[1-8]` e.g. ZERO A1.\n";
+static const char HELP_GET[] = "Get the verbose state of the device as a json object. `GET`.\n";
+static const char HELP_SLAVE[] = "Stop the evaluation of logic (default state). `SLAVE`.\n";
+static const char HELP_MASTER[] = "Start the evaluation of logic. `MASTER`.\n";
+static const char HELP_STREAM[] = "Toggle on/off a streamed output of the device's state as a json object. `STREAM`.\n";
+static const char HELP_HELP[] = "This message.\n";
+static const char HELP_LOGIC_EG[] = "\nIF [[O[1-8]|A[1-8]|STR] [=|!=|>|<] [<number>|<string>|NONE] [AND|OR]] THEN [O[1-8] | STR] = [[1|0]|<string>|NONE] [ ELSE [O[1-8] | STR] = [[1|0]|<string>|NONE]]\n\n\te.g. IF A1 > 5 AND I1 != 1 OR STR = password THEN O1 = 1 O2 = 0 ELSE O1 = 0 O2 = 0\n\te.g. IF A2 < 1.2 AND A3 < 3 THEN STR = password\n";
+//*HELP*//
 
 //*CODES*//
 #define _IF 1
@@ -114,7 +130,17 @@ static const char HELP[] = "HELP";
 #define ERR_GENERAL "General Error."
 
 
-uint32_t STACK[ARRAY_SIZE];
+int32_t STACK[ARRAY_SIZE];
+
+char txBuffer[BUFFER_SIZE];
+
+int bufferAppendInt(char *buf, int16_t pnt, int n);
+int bufferAppendFloat(char *buf, int16_t pnt, float n);
+int bufferAppendString(char *buf, int16_t pnt, char *s);
+
+
+
+
 
 extern bool debug;
 extern bool stream;
@@ -122,7 +148,7 @@ extern bool slave;
 
 extern int pnt;
 
-extern char STR[];
+extern char STR_VAL[];
 
 int * numberCharLen;
 
@@ -146,14 +172,12 @@ void error(int what);
 void app_task(void);
 void logInfo(char *str);
 void handleStack(int pnt);
-void get(void);
-void getVerbose(void);
-void getLogic(void);
+void printState(bool b);
+void printLogic(void);
 void parseInput(char * TEST,int size);
-char * logicToString(char *, int32_t[]);
 void response(int cmd,int key,int val);
 bool isRecieveValid(int pnt, int type);
-void handleLogic(uint32_t logic[MAX_COUNT_OF_APP_LOGIC][MAX_SIZE_OF_LOGIC]);
+void handleLogic();
 void clearSTR(void);
 void printHelp(void);
 bool evaluteLogicElement(int what, int turnary, uint32_t val1, uint32_t val2);

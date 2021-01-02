@@ -11,7 +11,8 @@ char TEST[ARRAY_SIZE];
 int main(int argc, char** argv) {
 	int x = 0;
 	for(;;){
-		if (stream) get();
+		if (stream)
+                    printState(false);
 		memset(STACK,0,sizeof(STACK));
 		memset(TEST,'\0',sizeof(TEST));
 		if (x++ > 3) {
