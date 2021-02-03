@@ -105,6 +105,7 @@ static const char HELP_LOGIC_EG[] = "\nIF [[O[1-8]|A[1-8]|STR] [=|!=|>|<] [<numb
 #define _SLAVE 91
 #define _MASTER 92
 #define _HELP 93
+#define _TIMEOUT 94
 
 #define _CON_IDENTIFIER 100
 #define _CON_TURNARY 101
@@ -182,6 +183,6 @@ void clearSTR(void);
 void printHelp(void);
 bool evaluteLogicElement(int what, int turnary, uint32_t val1, uint32_t val2);
 void setLogicElement(int what, int turnary,uint32_t val1, uint32_t val2);
-
+void setName(uint32_t val1, uint32_t val2);
 
 #endif

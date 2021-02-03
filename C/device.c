@@ -5,6 +5,7 @@
 
 uint32_t LOGIC_STACK[MAX_COUNT_OF_APP_LOGIC][MAX_SIZE_OF_LOGIC];
 
+uint32_t _TIMEOUT_VAL = 3000;
 
 /*
  *Device specific code, with functions called by app.c
@@ -60,6 +61,8 @@ void setValue(int port, void * val) {
             break;
         case _O8: _OUTPUTS[7] = (int8_t) (*(int32_t*) val);
             break;
+        case _TIMEOUT: _TIMEOUT_VAL = (*(int32_t*) val);
+            break;
     }
     return;
 }
@@ -74,6 +77,7 @@ int32_t getValue(int what) {
         case _O6: return _OUTPUTS[5];
         case _O7: return _OUTPUTS[6];
         case _O8: return _OUTPUTS[7];
+        case _TIMEOUT: return _TIMEOUT_VAL;
     }
 
     return 1;
@@ -177,13 +181,6 @@ bool logicDelete(int i) {
     return true;
 }
 
-uint16_t getTimeout() {
-    return 3000;
-}
-
-bool setTimeout(uint32_t timeInMiliseconds) {
-    return true;
-}
 
 bool logicSave(uint32_t logic[]) {
     int i;

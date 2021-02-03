@@ -4,9 +4,11 @@
 #include "device.h"
 #include "app.h"
 
+#include "../W-BT.X/mcc_generated_files/uart1.h"
+
 #define TIME_APP_TASK 500
 #define APP_STATE_INIT 0
-#define APP_STATE_SETUP_BT 1
+#define APP_STATE_SETUP 1
 #define APP_STATE_WORK 2
 
 int appState = APP_STATE_INIT;
@@ -17,6 +19,8 @@ int pnt = 0;
 char STR_VAL[] = {'\0', '\0', '\0', '\0', '\0', '\0', '\0', '\0'};
 int taskCount = 0;
 
+char _deviceName[8] = {'\0'};
+
 TimeStamp appTimeStamp;
 TimeStamp appTimeoutTimeStamp;
 
@@ -25,24 +29,31 @@ void app_task(void) {
     updateTimeStamp();
 
     //deviceRecieveData();
-
+    //printState(false);
+    
+   //return;
+    
     switch (appState) {
         case APP_STATE_INIT:
         {
+            UART1_Write('i');
             appTimeStamp = getTimeStampNow();
             appTimeoutTimeStamp = getTimeStampNow();
 
             loadValues();
             if (isInitialised()) appState = APP_STATE_WORK;
-            else appState = APP_STATE_SETUP_BT;
+            else appState = APP_STATE_SETUP;
         }
             break;
-        case APP_STATE_SETUP_BT:
+        case APP_STATE_SETUP:
         {
+            UART1_Write('s');
+            appState = APP_STATE_WORK;
         }
             break;
         case APP_STATE_WORK:
         {
+           // UART1_Write('w');
             deviceRecieveData();
 
             if (getMillisencondElapsed(appTimeStamp) < TIME_APP_TASK) return;
@@ -50,12 +61,14 @@ void app_task(void) {
 
             deviceDoADC();
 
-            if (getDoStream()) printState(false);
-            if (getMillisencondElapsed(appTimeoutTimeStamp) < getTimeout()) {
+           // if (getDoStream()) 
+                printState(false);
+            
+            if (getMillisencondElapsed(appTimeoutTimeStamp) < getValue(_TIMEOUT)) {
                 clearSTR();
                 appTimeoutTimeStamp = getTimeStampNow();
             }
-            handleLogic();
+            //handleLogic();
         }
             break;
     }
@@ -595,7 +608,17 @@ void printState(bool verbose) {
     pnt = bufferAppendString(txBuffer, pnt, (char *) STR);
     txBuffer[pnt++] = '"';
     txBuffer[pnt++] = ':';
+    txBuffer[pnt++] = '"';
     pnt = bufferAppendString(txBuffer, pnt, STR_VAL);
+    txBuffer[pnt++] = '"';
+    if (verbose) {
+       txBuffer[pnt++] = ',';
+        txBuffer[pnt++] = '"';
+        pnt = bufferAppendString(txBuffer, pnt, (char *) TIMEOUT);
+        txBuffer[pnt++] = '"';
+        txBuffer[pnt++] = ':';
+        pnt = bufferAppendFloat(txBuffer, pnt, (getValue(_TIMEOUT) / 1000.0)); //as seconds
+    }
     txBuffer[pnt++] = ',';
     txBuffer[pnt++] = '"';
     pnt = bufferAppendString(txBuffer, pnt, (char *) SLAVE);
@@ -609,33 +632,6 @@ void printState(bool verbose) {
     txBuffer[pnt++] = '}';
     printOut(txBuffer);
     return;
-}
-
-char* reverse(char *str) { // defining the function
-    static int i = 0;
-    static char rev[100];
-    if (*str) {
-        reverse(str + 1);
-        rev[i++] = *str;
-    }
-    return rev;
-}
-
-/* itoa: convert n to characters in s */
-void itoa(int n, char s[]) {
-    int i, sign;
-
-    if ((sign = n) < 0) /* record sign */
-        n = -n; /* make n positive */
-    i = 0;
-    do { /* generate digits in reverse order */
-        s[i++] = n % 10 + '0'; /* get next digit */
-    } while ((n /= 10) > 0); /* delete it */
-    if (sign < 0)
-        s[i++] = '-';
-    s[i] = '\0';
-
-    reverse(s);
 }
 
 int bufferAppendInt(char *buf, int16_t pnt, int n) {
@@ -828,26 +824,26 @@ char* boolAsStr(bool b) {
 
 void response(int cmd, int key, int val) {
     switch (cmd) {
-        case _LOGIC: printLogic();
-            break;
         case _ZERO:
-        case _GET: printState(true);
-            break;
+        case _GET:
+        case _TIMEOUT:
         case _SLAVE:
         case _MASTER:
         case _SET: printState(true);
             break;
+        case _LOGIC:
         case _DELETE: printLogic();
             break;
         case _HELP: printHelp();
             break;
         case _NAME:
-        {
+        {          
             char tmp[] = {
                 (char) (key >> 24)&0xff, (char) (key >> 16)&0xff, (char) (key >> 8)&0xff, (char) key & 0xff,
                 (char) (val >> 24)&0xff, (char) (val >> 16)&0xff, (char) (val >> 8)&0xff, (char) val & 0xff, '\0'
             };
-            logInfo(tmp);
+//            logInfo("NAME IS =");
+//            logInfo(tmp);
             break;
         }
     }
@@ -867,7 +863,6 @@ bool isRecieveValid(int pnt, int type) {
     while (i <= pnt && ok && next != _END) {
         if (next == _NUM) {
             if (STACK[1] >= _O1 && STACK[1] <= _O8 && i >= 3 && STACK[0] == _SET) {
-                logInfo("validate SET Ox = N");
                 if (STACK[i] == 0 || STACK[i] == 100) {
                     next = _END;
                 } else {
@@ -875,11 +870,7 @@ bool isRecieveValid(int pnt, int type) {
                 }
             } else if (STACK[1] >= _A1 && STACK[1] <= _A8 && i >= 3 && STACK[0] == _SET) {
                 //TODO: upper and lower limits of the the analogue. Remember factor of 100.
-                logInfo("validate SET Ax = N");
-                //TODO: calibrate
-                if (true) {
-                    next = _END;
-                } else ok = false;
+                next = _END;
             } else if (STACK[0] == _DELETE) {
                 if (STACK[i] != 0 && STACK[i] / 100 > 0 && STACK[i] / 100 <= MAX_COUNT_OF_APP_LOGIC) {
                     next = _END;
@@ -887,6 +878,8 @@ bool isRecieveValid(int pnt, int type) {
                 } else {
                     ok = false;
                 }
+            } else if (STACK[0] == _TIMEOUT) {
+                next = _END;
             } else {
                 ok = true;
             }
@@ -895,6 +888,7 @@ bool isRecieveValid(int pnt, int type) {
             uint8_t c = (l >> 24)&0xff;
             if (c > ' ' && c <= '~') {
                 if (STACK[0] == _NAME) {
+                    logInfo("validate NAME");
                     next = _END;
                 } else if (next == _CON_STRING_OR_NONE) {
                     i++;
@@ -968,7 +962,6 @@ bool isRecieveValid(int pnt, int type) {
                 if (next == _ANALOGUE && STACK[i] >= _A1 && STACK[i] <= _A8 && STACK[0] == _ZERO) { // ZERO ANALOGUE
                     next = _END;
                 } else if (next == _IDENTIFIER && (STACK[i] >= _O1 && STACK[i] <= _A8) && STACK[0] == _SET) { // SET OUT | ADC
-                    logInfo("validate SET Xn");
                     next = _EQUALS;
                 } else if (next == _RES_IDENTIFIER) {
                     next = _RES_EQUALS;
@@ -990,10 +983,11 @@ bool isRecieveValid(int pnt, int type) {
             }
         } else if (next == _EQUALS) {
             if (STACK[0] == _SET && i == 2) {
-                logInfo("validate SET Xn =");
                 next = _NUM;
             } else if (STACK[0] == _NAME && i == 1) {
                 next = _STRING;
+            } else if (STACK[0] == _TIMEOUT && i == 1) {
+                next = _NUM;
             } else {
                 ok = false;
             }
@@ -1023,9 +1017,10 @@ bool isRecieveValid(int pnt, int type) {
         } else if (STACK[i] == _GET && i == 0) { //COMMAND: GET
             next = _END;
         } else if (STACK[i] == _SET && i == 0) { //COMMAND: SET
-            logInfo("validate SET");
             next = _IDENTIFIER;
         } else if (STACK[i] == _NAME && i == 0) { //COMMAND: NAME
+            next = _EQUALS;
+        } else if (STACK[i] == _TIMEOUT && i == 0) { //COMMAND: TIMEOUT
             next = _EQUALS;
         } else if (STACK[i] == _STREAM && i == 0) { //COMMAND: STREAM
             next = _END;
@@ -1058,8 +1053,23 @@ bool isRecieveValid(int pnt, int type) {
     return false;
 }
 
+
+void setName(uint32_t val1, uint32_t val2){
+   _deviceName[0] = (char) (val1 >> 24)&0xff;
+   _deviceName[1] = (char) (val1 >> 16)&0xff;
+   _deviceName[2] = (char) (val1 >> 8)&0xff;
+   _deviceName[3] = (char) val1 & 0xff;
+   _deviceName[4] = (char) (val2 >> 24)&0xff;
+   _deviceName[5] = (char) (val2 >> 16)&0xff;
+   _deviceName[6] = (char) (val2 >> 8)&0xff;
+   _deviceName[7] = (char) val2 & 0xff;
+   logInfo("NAME IS =");
+   logInfo(_deviceName);
+   //TODO: logic to change BT NAME
+   //appState = APP_STATE_SETUP;
+}
+
 void handleStack(int pnt) {
-    logInfo("\thandleStack();");
     //*PARSE STRING STATES*//
     static const int _ANALOGUE = 111;
     static const int _IDENTIFIER = 112;
@@ -1071,8 +1081,10 @@ void handleStack(int pnt) {
     int i;
     for (i = 0; i <= pnt; i++) {
         if (next == _STRING) {
-            if (STACK[0] == _NAME) response(_NAME, STACK[i], STACK[i + 1]);
-            break;
+            if (STACK[0] == _NAME) {
+                //response(_NAME, STACK[i], STACK[i + 1]);
+                setName(STACK[i],STACK[i + 1]);
+            }
         } else if (next == _NUM) {
             if (STACK[0] == _SET && STACK[1] >= _A1 && STACK[1] <= _A8) {
                 float tmp = (STACK[i] / 100.0);
@@ -1080,13 +1092,19 @@ void handleStack(int pnt) {
                 response(_SET, STACK[1], STACK[i]);
                 break;
             } else if (STACK[0] == _SET && STACK[1] >= _O1 && STACK[1] <= _O8) {
-                uint8_t v = (uint8_t) STACK[i] /100;
+                uint8_t v = (uint8_t) STACK[i] / 100;
                 setValue(STACK[1], &v);
                 response(_SET, STACK[1], STACK[i]);
                 break;
             } else if (STACK[0] == _DELETE) {
                 if (logicDelete(STACK[i] / 100)) response(_DELETE, 0, 0);
                 else error(-1);
+                break;
+            } else if (STACK[0] == _TIMEOUT) {
+                //TODO: if (assert());
+                setValue(_TIMEOUT, &STACK[i]);
+                response(_TIMEOUT, 0, 0);
+                //error(ERR_VALUE);
                 break;
             }
         } else if (i == 0) {
@@ -1109,6 +1127,8 @@ void handleStack(int pnt) {
             } else if (STACK[0] == _HELP) {
                 response(_HELP, 0, 0);
             } else if (STACK[0] == _NAME) {
+                next = _EQ;
+            } else if (STACK[0] == _TIMEOUT) {
                 next = _EQ;
             } else if (STACK[0] == _DELETE) {
                 next = _NUM;
@@ -1171,6 +1191,7 @@ void handleStack(int pnt) {
         } else if (next == _EQ) {
             if (STACK[0] == _SET) next = _NUM;
             else if (STACK[0] == _NAME) next = _STRING;
+            else if (STACK[0] == _TIMEOUT) next = _NUM;
         }
     }
 }
@@ -1204,6 +1225,11 @@ void parseInput(char * TEST, int size) {
         } else if (isNext(&TEST[i], DELETE)) {
             i += 6;
             STACK[pnt] = _DELETE;
+            if (isRecieveValid(pnt, 0)) pnt++;
+            else break;
+        } else if (isNext(&TEST[i], TIMEOUT)) {
+            i += 7;
+            STACK[pnt] = _TIMEOUT;
             if (isRecieveValid(pnt, 0)) pnt++;
             else break;
         } else if (isNext(&TEST[i], ZERO)) {
@@ -1379,41 +1405,41 @@ void parseInput(char * TEST, int size) {
         } else if ((numberCharLen = isNumber(&TEST[i])) && *numberCharLen > 0) {
             //float num;
             //sscanf(&TEST[i], "%f", &num);
-            
-            
+
+
             int j = 0;
             uint8_t sign = 1;
             uint8_t point = 0;
             uint16_t div = 1;
             float num = 0;
-            
-            while (j < *numberCharLen){
-                if (TEST[i+j] == '-') {
+
+            while (j < *numberCharLen) {
+                if (TEST[i + j] == '-') {
                     if (j != 0) break;
                     sign = -1;
-                } else if (isdigit(TEST[i+j])) {
-                    num = num*10;
-                    num += TEST[i+j] - '0';
-                    if (point == 1) div = div*10;
-                } else if (TEST[i+j] == '.' && point < 2) {
+                } else if (isdigit(TEST[i + j])) {
+                    num = num * 10;
+                    num += TEST[i + j] - '0';
+                    if (point == 1) div = div * 10;
+                } else if (TEST[i + j] == '.' && point < 2) {
                     point++;
                 } else {
                     break;
                 }
                 j++;
             }
-            
+
             num = num / div;
             //num = num*sign;
-            
-            
+            //TODO: -ve numbers unisghned converstion somewhere
+
             i += *numberCharLen;
-            
-            int32_t tmp =  (int32_t) (num * 100.0);
+
+            int32_t tmp = (int32_t) (num * 100.0);
             tmp = tmp * sign;
             STACK[pnt] = tmp;
-            
-            
+
+
             if (isRecieveValid(pnt, 0)) pnt++;
             else break;
         } else {

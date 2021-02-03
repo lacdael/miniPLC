@@ -305,80 +305,94 @@ void deviceRecieveData(void) {
 }
 
 void deviceDoADC() {
-    IFS0CLR = _IFS0_AD1IF_MASK;
-    while (IFS0bits.AD1IF == 0);
+    
+    uint16_t adc[12];
+    
+    ADC1_ConversionResultBufferGet(adc);
+    
+//    IFS0CLR = _IFS0_AD1IF_MASK;
+  //  while (IFS0bits.AD1IF == 0);
+ //   return;
     //ADC1
-    deviceData.adc1_x[2] = deviceData.adc1_x[1];
-    deviceData.adc1_x[1] = deviceData.adc1_x[0];
-    deviceData.adc1_x[0] = ADC1BUF6;
-    deviceData.adc1_y[2] = deviceData.adc1_y[1];
-    deviceData.adc1_y[1] = deviceData.adc1_y[0];
-    deviceData.adc1_y[0] = deviceData.b0 * deviceData.adc1_x[0]
-            + deviceData.b1 * deviceData.adc1_x[1] + deviceData.b2 * deviceData.adc1_x[3]
-            - deviceData.a1 * deviceData.adc1_y[1] - deviceData.a2 * deviceData.adc1_y[2];
+  //  deviceData.adc1_x[2] = deviceData.adc1_x[1];
+  //  deviceData.adc1_x[1] = deviceData.adc1_x[0];
+  //  deviceData.adc1_x[0] = ADC1BUF6;
+  //  deviceData.adc1_y[0] = ADC1BUF6;
+  //  deviceData.adc1_y[2] = deviceData.adc1_y[1];
+  //  deviceData.adc1_y[1] = deviceData.adc1_y[0];
+  //  deviceData.adc1_y[0] = deviceData.b0 * deviceData.adc1_x[0]
+  //          + deviceData.b1 * deviceData.adc1_x[1] + deviceData.b2 * deviceData.adc1_x[3]
+  //          - deviceData.a1 * deviceData.adc1_y[1] - deviceData.a2 * deviceData.adc1_y[2];
     //ADC2
-    deviceData.adc2_x[2] = deviceData.adc2_x[1];
-    deviceData.adc2_x[1] = deviceData.adc2_x[0];
-    deviceData.adc2_x[0] = ADC1BUF5;
-    deviceData.adc2_y[2] = deviceData.adc2_y[1];
-    deviceData.adc2_y[1] = deviceData.adc2_y[0];
-    deviceData.adc2_y[0] = deviceData.b0 * deviceData.adc2_x[0]
-            + deviceData.b1 * deviceData.adc2_x[1] + deviceData.b2 * deviceData.adc2_x[3]
-            - deviceData.a1 * deviceData.adc2_y[1] - deviceData.a2 * deviceData.adc2_y[2];
+  //  deviceData.adc2_x[2] = deviceData.adc2_x[1];
+  //  deviceData.adc2_x[1] = deviceData.adc2_x[0];
+  //  deviceData.adc2_x[0] = ADC1BUF5;
+  //  deviceData.adc2_y[2] = deviceData.adc2_y[1];
+  //  deviceData.adc2_y[1] = deviceData.adc2_y[0];
+  //  deviceData.adc2_y[0] = deviceData.b0 * deviceData.adc2_x[0]
+  //          + deviceData.b1 * deviceData.adc2_x[1] + deviceData.b2 * deviceData.adc2_x[3]
+  //          - deviceData.a1 * deviceData.adc2_y[1] - deviceData.a2 * deviceData.adc2_y[2];
     //ADC3
-    deviceData.adc3_x[2] = deviceData.adc3_x[1];
-    deviceData.adc3_x[1] = deviceData.adc3_x[0];
-    deviceData.adc3_x[0] = ADC1BUF11;
-    deviceData.adc3_y[2] = deviceData.adc3_y[1];
-    deviceData.adc3_y[1] = deviceData.adc3_y[0];
-    deviceData.adc3_y[0] = deviceData.b0 * deviceData.adc3_x[0]
-            + deviceData.b1 * deviceData.adc3_x[1] + deviceData.b2 * deviceData.adc3_x[3]
-            - deviceData.a1 * deviceData.adc3_y[1] - deviceData.a2 * deviceData.adc3_y[2];
+  //  deviceData.adc3_x[2] = deviceData.adc3_x[1];
+  //  deviceData.adc3_x[1] = deviceData.adc3_x[0];
+    
+  //  deviceData.adc3_x[0] = ADC1BUF11;
+// deviceData.adc3_y[0] = ADC1BUF11;
+    //   deviceData.adc3_y[2] = deviceData.adc3_y[1];
+ //   deviceData.adc3_y[1] = deviceData.adc3_y[0];
+  //  deviceData.adc3_y[0] = deviceData.b0 * deviceData.adc3_x[0]
+  //          + deviceData.b1 * deviceData.adc3_x[1] + deviceData.b2 * deviceData.adc3_x[3]
+  //          - deviceData.a1 * deviceData.adc3_y[1] - deviceData.a2 * deviceData.adc3_y[2];
     //ADC4
-    deviceData.adc4_x[2] = deviceData.adc4_x[1];
-    deviceData.adc4_x[1] = deviceData.adc4_x[0];
-    deviceData.adc4_x[0] = ADC1BUF4;
-    deviceData.adc4_y[2] = deviceData.adc4_y[1];
-    deviceData.adc4_y[1] = deviceData.adc4_y[0];
-    deviceData.adc4_y[0] = deviceData.b0 * deviceData.adc4_x[0]
-            + deviceData.b1 * deviceData.adc4_x[1] + deviceData.b2 * deviceData.adc4_x[3]
-            - deviceData.a1 * deviceData.adc4_y[1] - deviceData.a2 * deviceData.adc4_y[2];
+ //   deviceData.adc4_x[2] = deviceData.adc4_x[1];
+ ///   deviceData.adc4_x[1] = deviceData.adc4_x[0];
+  //  deviceData.adc4_x[0] = ADC1BUF4;
+  //  deviceData.adc4_y[0] = ADC1BUF4;
+    //deviceData.adc4_y[2] = deviceData.adc4_y[1];
+   // deviceData.adc4_y[1] = deviceData.adc4_y[0];
+   // deviceData.adc4_y[0] = deviceData.b0 * deviceData.adc4_x[0]
+   //         + deviceData.b1 * deviceData.adc4_x[1] + deviceData.b2 * deviceData.adc4_x[3]
+    //        - deviceData.a1 * deviceData.adc4_y[1] - deviceData.a2 * deviceData.adc4_y[2];
     //ADC5
-    deviceData.adc5_x[2] = deviceData.adc5_x[1];
-    deviceData.adc5_x[1] = deviceData.adc5_x[0];
-    deviceData.adc5_x[0] = ADC1BUF1;
-    deviceData.adc5_y[2] = deviceData.adc3_y[1];
-    deviceData.adc5_y[1] = deviceData.adc3_y[0];
-    deviceData.adc5_y[0] = deviceData.b0 * deviceData.adc5_x[0]
-            + deviceData.b1 * deviceData.adc5_x[1] + deviceData.b2 * deviceData.adc5_x[3]
-            - deviceData.a1 * deviceData.adc5_y[1] - deviceData.a2 * deviceData.adc5_y[2];
+//    deviceData.adc5_x[2] = deviceData.adc5_x[1];
+//    deviceData.adc5_x[1] = deviceData.adc5_x[0];
+   // deviceData.adc5_x[0] = ADC1BUF1;
+  //  deviceData.adc5_y[0] = ADC1BUF1;
+//    deviceData.adc5_y[2] = deviceData.adc3_y[1];
+//    deviceData.adc5_y[1] = deviceData.adc3_y[0];
+//    deviceData.adc5_y[0] = deviceData.b0 * deviceData.adc5_x[0]
+//            + deviceData.b1 * deviceData.adc5_x[1] + deviceData.b2 * deviceData.adc5_x[3]
+//            - deviceData.a1 * deviceData.adc5_y[1] - deviceData.a2 * deviceData.adc5_y[2];
     //ADC6
-    deviceData.adc6_x[2] = deviceData.adc6_x[1];
-    deviceData.adc6_x[1] = deviceData.adc6_x[0];
-    deviceData.adc6_x[0] = ADC1BUF0;
-    deviceData.adc6_y[2] = deviceData.adc6_y[1];
-    deviceData.adc6_y[1] = deviceData.adc6_y[0];
-    deviceData.adc6_y[0] = deviceData.b0 * deviceData.adc6_x[0]
-            + deviceData.b1 * deviceData.adc6_x[1] + deviceData.b2 * deviceData.adc6_x[3]
-            - deviceData.a1 * deviceData.adc6_y[1] - deviceData.a2 * deviceData.adc6_y[2];
+ //   deviceData.adc6_x[2] = deviceData.adc6_x[1];
+ //   deviceData.adc6_x[1] = deviceData.adc6_x[0];
+ //   deviceData.adc6_x[0] = ADC1BUF0;
+//deviceData.adc6_y[0] = ADC1BUF0;
+    //    deviceData.adc6_y[2] = deviceData.adc6_y[1];
+//    deviceData.adc6_y[1] = deviceData.adc6_y[0];
+//    deviceData.adc6_y[0] = deviceData.b0 * deviceData.adc6_x[0]
+ //           + deviceData.b1 * deviceData.adc6_x[1] + deviceData.b2 * deviceData.adc6_x[3]
+ //           - deviceData.a1 * deviceData.adc6_y[1] - deviceData.a2 * deviceData.adc6_y[2];
     //ADC7
-    deviceData.adc7_x[2] = deviceData.adc7_x[1];
-    deviceData.adc7_x[1] = deviceData.adc7_x[0];
-    deviceData.adc7_x[0] = ADC1BUF3;
-    deviceData.adc7_y[2] = deviceData.adc7_y[1];
-    deviceData.adc7_y[1] = deviceData.adc7_y[0];
-    deviceData.adc7_y[0] = deviceData.b0 * deviceData.adc7_x[0]
-            + deviceData.b1 * deviceData.adc7_x[1] + deviceData.b2 * deviceData.adc7_x[3]
-            - deviceData.a1 * deviceData.adc7_y[1] - deviceData.a2 * deviceData.adc7_y[2];
+ //   deviceData.adc7_x[2] = deviceData.adc7_x[1];
+//    deviceData.adc7_x[1] = deviceData.adc7_x[0];
+  //  deviceData.adc7_x[0] = ADC1BUF3;
+ //deviceData.adc7_y[0] = ADC1BUF3;
+    //   deviceData.adc7_y[2] = deviceData.adc7_y[1];
+ //   deviceData.adc7_y[1] = deviceData.adc7_y[0];
+ //   deviceData.adc7_y[0] = deviceData.b0 * deviceData.adc7_x[0]
+ //           + deviceData.b1 * deviceData.adc7_x[1] + deviceData.b2 * deviceData.adc7_x[3]
+ //           - deviceData.a1 * deviceData.adc7_y[1] - deviceData.a2 * deviceData.adc7_y[2];
     //ADC8
-    deviceData.adc8_x[2] = deviceData.adc8_x[1];
-    deviceData.adc8_x[1] = deviceData.adc8_x[0];
-    deviceData.adc8_x[0] = ADC1BUF8;
-    deviceData.adc8_y[2] = deviceData.adc8_y[1];
-    deviceData.adc8_y[1] = deviceData.adc8_y[0];
-    deviceData.adc8_y[0] = deviceData.b0 * deviceData.adc8_x[0]
-            + deviceData.b1 * deviceData.adc8_x[1] + deviceData.b2 * deviceData.adc8_x[3]
-            - deviceData.a1 * deviceData.adc8_y[1] - deviceData.a2 * deviceData.adc8_y[2];
+   // deviceData.adc8_x[2] = deviceData.adc8_x[1];
+ //   deviceData.adc8_x[1] = deviceData.adc8_x[0];
+   // deviceData.adc8_x[0] = ADC1BUF8;
+ //   deviceData.adc8_y[0] = ADC1BUF8;
+ //   deviceData.adc8_y[2] = deviceData.adc8_y[1];
+ //   deviceData.adc8_y[1] = deviceData.adc8_y[0];
+ //   deviceData.adc8_y[0] = deviceData.b0 * deviceData.adc8_x[0]
+  //          + deviceData.b1 * deviceData.adc8_x[1] + deviceData.b2 * deviceData.adc8_x[3]
+   //         - deviceData.a1 * deviceData.adc8_y[1] - deviceData.a2 * deviceData.adc8_y[2];
 }
 
 int32_t getValue(int what) {
@@ -505,7 +519,7 @@ void doADCZero(int port) {
     }
 }
 
-void doADCCalibrate(int port, double value) {
+void doADCCalibrate(int port, float value) {
     uint32_t newCalValue = _doADCAverage(port, 10);
     switch (port) {
         case _A1: _flashSetValue(FLASH_ADC1_CAL, &newCalValue);
@@ -528,21 +542,15 @@ void doADCCalibrate(int port, double value) {
     }
 }
 
-void printOutput(const char *fmt, ...) {
-    va_list args;
-    int txLen;
+void printOut(char *str) {
     uint8_t numBytes = 0;
     char txBuffer[BUFFER_SIZE];
-    va_start(args, fmt);
+    
+    uint16_t i = 0;
+    uint16_t size = strlen ( str);
+    for (i = 0; i < size; i++) txBuffer[i] = str[i];
 
-    uint8_t i = 0;
-    uint8_t size = sizeof ( txBuffer);
-    for (i = 0; i < size; i++) txBuffer[i] = 0;
-
-    txLen = vsnprintf(txBuffer, sizeof (txBuffer), fmt, args);
-    va_end(args);
-
-    while (txLen > numBytes) {
+    while (size > numBytes) {
 
         while (!UART1_IsTxReady());
 
@@ -551,7 +559,7 @@ void printOutput(const char *fmt, ...) {
     }
 }
 
-double getADC(int port) {
+float getADC(int port) {
     return 0.0;
     switch (port) {
         case _A1: return deviceData.adc1_y[0];

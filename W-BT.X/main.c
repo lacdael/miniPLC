@@ -46,6 +46,7 @@
   Section: Included Files
 */
 #include "mcc_generated_files/system.h"
+#include "mcc_generated_files/watchdog.h"
 
 /*
                          Main application
@@ -59,6 +60,7 @@ int main(void)
         // Add your application code
         
         app_task();
+        WATCHDOG_TimerClear();
     }
     return 1; 
 }

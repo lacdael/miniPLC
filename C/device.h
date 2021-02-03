@@ -76,13 +76,10 @@ void doADCCalibrate(int port, float val);
 void doADCZero(int port);
 float getADC(int port);
 void printOut(char *str);
-//void printOutput(const char *fmt,...);
 bool isInitialised();
 uint32_t getADCZero(int port);
 uint32_t getADCCal(int port);
 bool logicSave(uint32_t logic[]);
 bool logicDelete(int i);
-uint16_t getTimeout();
-bool setTimeout(uint32_t timeInMiliseconds);
 
 #endif /* DEVICE_H */
